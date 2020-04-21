@@ -59,7 +59,7 @@
         "publicSubnetName": "public-subnet-slot1",
         "vnetId": "HERE VNET NAME ID",
         "managedResourceGroupId": "[concat(subscription().id, '/resourceGroups/', variables('managedResourceGroupName'))]",
-        "managedResourceGroupName": "[concat('az-rg-DBR-managed-', parameters('resourceName'), '-', uniqueString(parameters('resourceName'), resourceGroup().id))]"
+        "managedResourceGroupName": "[concat('here-template', parameters('resourceName'), '-', uniqueString(parameters('resourceName'), resourceGroup().id))]"
     },
     "resources": [
         {
