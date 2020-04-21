@@ -1,0 +1,186 @@
+
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "resourceName": {
+            "type": "string"
+        },
+        "skuName": {
+            "defaultValue": "premium",
+            "type": "string"
+        },
+        "diagnosticsName": {
+            "type": "string",
+            "defaultValue": "securitylog",
+            "metadata": {
+                "description": "Name for the diagnostic logs entry"
+            }
+        },
+        "diagStorageName": {
+            "type": "string",
+            "defaultValue": "",
+            "metadata": {
+                "description": "Storage for diagnostic logs"
+            }
+        },
+        "diagStorageResourceGroup": {
+            "type": "string",
+            "defaultValue": "",
+            "metadata": {
+                "description": "Resource Group of the Storage for diagnostic logs"
+            }
+        },
+        "workspaceId": {
+            "type": "string",
+            "defaultValue": "/subscriptions/3927f315-e80b-42b6-93b7-3afbb10f556f/resourceGroups/AZ-RG-OpsMonitoring-PaaS-DataProcess-01/providers/Microsoft.OperationalInsights/workspaces/cloudops-dataprocess-01",
+            "metadata": {
+                "description": "Workspace ID for diagnostic logs for the resource type"
+            }
+        },
+        "retentionDays": {
+            "type": "string",
+            "defaultValue": "365",
+            "metadata": {
+                "description": "Retention days for diagnostic logs"
+            }
+        },
+        "tags": {
+            "type": "object",
+            "defaultValue": {},
+            "metadata": {
+                "description": "Additional tags on a resource level."
+            }
+        }
+    },
+    "variables": {
+        "vnetName": "HERE VNET NAME",
+        "privateSubnetName": "private-subnet-slot1",
+        "publicSubnetName": "public-subnet-slot1",
+        "vnetId": "HERE VNET NAME ID",
+        "managedResourceGroupId": "[concat(subscription().id, '/resourceGroups/', variables('managedResourceGroupName'))]",
+        "managedResourceGroupName": "[concat('az-rg-DBR-managed-', parameters('resourceName'), '-', uniqueString(parameters('resourceName'), resourceGroup().id))]"
+    },
+    "resources": [
+        {
+            "apiVersion": "2018-04-01",
+            "type": "Microsoft.Databricks/workspaces",
+            "location": "[resourceGroup().location]",
+            "tags": "[union(parameters('tags'), resourceGroup().tags, json('{\"Compliance\":\"Exclude \"}'))]",
+            "name": "[parameters('resourceName')]",
+            "sku": {
+                "name": "[parameters('skuName')]"
+            },
+            "comments": "Do not use an existing resource group for ManagedResourceGroupId, which will be Microsoft managed rg.",
+            "resources": [
+                {
+                  "type": "providers/diagnosticSettings",
+                  "name": "[concat('Microsoft.Insights/',parameters('diagnosticsName'))]",
+                  "condition": "[and(not(empty(parameters('diagStorageName'))),equals(parameters('skuName'),'premium'))]",
+                  "dependsOn": [
+                    "[resourceId('Microsoft.Databricks/workspaces', parameters('resourceName'))]"
+                  ],
+                  "apiVersion": "2017-05-01-preview",
+                  "properties": {
+                    "storageAccountId": "[resourceId(parameters('diagStorageResourceGroup'), 'Microsoft.Storage/storageAccounts', parameters('diagStorageName'))]",
+                    "workspaceId": "[parameters('workspaceId')]",
+                    "logs": [
+                        {
+                          "category": "dbfs",
+                          "enabled": true,
+                          "retentionPolicy": {
+                            "days": "[parameters('retentionDays')]",
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "category": "clusters",
+                          "enabled": true,
+                          "retentionPolicy": {
+                            "days": "[parameters('retentionDays')]",
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "category": "accounts",
+                          "enabled": true,
+                          "retentionPolicy": {
+                            "days": "[parameters('retentionDays')]",
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "category": "jobs",
+                          "enabled": true,
+                          "retentionPolicy": {
+                            "days": "[parameters('retentionDays')]",
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "category": "notebook",
+                          "enabled": true,
+                          "retentionPolicy": {
+                            "days": "[parameters('retentionDays')]",
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "category": "ssh",
+                          "enabled": true,
+                          "retentionPolicy": {
+                            "days": "[parameters('retentionDays')]",
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "category": "workspace",
+                          "enabled": true,
+                          "retentionPolicy": {
+                            "days": "[parameters('retentionDays')]",
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "category": "secrets",
+                          "enabled": true,
+                          "retentionPolicy": {
+                            "days": "[parameters('retentionDays')]",
+                            "enabled": true
+                          }
+                        },
+                        {
+                          "category": "sqlPermissions",
+                          "enabled": true,
+                          "retentionPolicy": {
+                            "days": "[parameters('retentionDays')]",
+                            "enabled": true
+                          }
+                        }
+                    ]
+                  }
+                }
+            ],
+            "properties": {
+                "ManagedResourceGroupId": "[variables('managedResourceGroupId')]",
+                "parameters": {
+                    "customVirtualNetworkId": {
+                        "value": "[variables('vnetId')]"
+                    },
+                    "customPublicSubnetName": {
+                        "value": "[variables('publicSubnetName')]"
+                    },
+                    "customPrivateSubnetName": {
+                        "value": "[variables('privateSubnetName')]"
+                    }
+                }
+            }
+        }
+    ],
+    "outputs": {
+        "resourceName": {
+            "type": "string",
+            "value": "[parameters('resourceName')]"
+        }
+    }
+}
