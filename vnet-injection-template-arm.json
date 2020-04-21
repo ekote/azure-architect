@@ -33,7 +33,7 @@
         },
         "workspaceId": {
             "type": "string",
-            "defaultValue": "/subscriptions/3927f315-e80b-42b6-93b7-3afbb10f556f/resourceGroups/AZ-RG-OpsMonitoring-PaaS-DataProcess-01/providers/Microsoft.OperationalInsights/workspaces/cloudops-dataprocess-01",
+            "defaultValue": "",
             "metadata": {
                 "description": "Workspace ID for diagnostic logs for the resource type"
             }
