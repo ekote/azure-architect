@@ -14,9 +14,9 @@
   - Train
   - Analyze
 
-![image-20200902173720729](images\image-20200902173720729.png)
+![image-20200902173720729](..\images\image-20200902173720729.png)
 
-![2020-09-02_17h38_54](images\2020-09-02_17h38_54.png)
+![2020-09-02_17h38_54](..\images\2020-09-02_17h38_54.png)
 
 ## Benefits with Form Recognizer
 
@@ -44,7 +44,7 @@
 
 
 
-<video src=images\video-form-reco-demo.mp4"></video>
+<video src="..\images\video-form-reco-demo.mp4"></video>
 
 
 
@@ -69,9 +69,9 @@ Steps:
 
 #### Steps
 
-![2020-09-02_18h05_59](images\2020-09-02_18h05_59.png)
+![2020-09-02_18h05_59](..\images\2020-09-02_18h05_59.png)
 
-![2020-09-02_18h05_23](images\2020-09-02_18h05_23.png)
+![2020-09-02_18h05_23](..\images\2020-09-02_18h05_23.png)
 
 
 
