@@ -48,30 +48,55 @@
 
 
 
-## DIY
+## DIY - tutorial
 
-Objective A: recognize text on the image.
+- The dataset is available inside dataset folder.
+
+- The project file (.fott) is also available in the repo 
 
 
 
 Steps:
 
 1. Go to the Azure portal and [create a new Form Recognizer resource ](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesFormRecognizer). 
+
+   ![2020-09-03_08h07_40](https://github.com/ekote/azure-demos/blob/master/images/2020-09-03_08h07_40.png)
+
 2. Prepare the dataset with the sample data. Create a storage account then create a container and upload there your data
-3. Go to [FOTT](https://fott.azurewebsites.net/) and create New Project. Connect with your storage account.  
-4. Tags Editor:
-   1. Form Recognizer runs a OCR on your image/document. You can create a tag
-5. Train a new model:
+
+3. Go to [FOTT](https://fott.azurewebsites.net/).
+
+   1. create New Project. 
+
+   ![2020-09-03_08h10_49](https://github.com/ekote/azure-demos/blob/master/images/2020-09-03_08h10_49.png)2. Connect with your storage account.  
+
+   ![image-20200903083016499](https://github.com/ekote/azure-demos/blob/master/images/image-20200903083016499.png)
+
+   
+
+   FYI - You can deploy Form OCT Test Toolset (FOTT) locally or in your cloud env. [Here](https://github.com/microsoft/OCR-Form-Tools) is the link to the source repo.
+
+   
+
+4. Label your documents / forms in **Tags Editor**:
+
+   1. Click **Run OCR on all files** on the left pane to get the text layout information for each document. 
+
+      ![2020-09-03_08h25_47](https://github.com/ekote/azure-demos/blob/master/images/2020-09-03_08h25_47.png)
+
+   2. Create your tag. Click on **+** inside **Tags** pane. Specify tag type (not-specified/alphanumeric/no-whitespaces)
+
+   3. Apply tags to text
+
+5. Train **a new custom model**:
+
+   ![2020-09-03_08h26_30](https://github.com/ekote/azure-demos/blob/master/images/2020-09-03_08h26_30.png)
+
 6. Analyze via a script or via image uploading
-7. Train
+
+   ![2020-09-03_08h27_56](https://github.com/ekote/azure-demos/blob/master/images/2020-09-03_08h27_56.png)
 
 
-
-#### Steps
-
-![2020-09-02_18h05_59](https://github.com/ekote/azure-demos/blob/master/images/2020-09-02_18h05_59.png)
-
-![2020-09-02_18h05_23](https://github.com/ekote/azure-demos/blob/master/images/2020-09-02_18h05_23.png)
 
 
 
