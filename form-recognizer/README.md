@@ -104,7 +104,7 @@ Steps:
 
 - https://docs.microsoft.com/en-us/azure/cognitive-services/form-recognizer/form-recognizer-container-howto
 
-
+  
 
 
 
