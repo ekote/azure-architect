@@ -1,0 +1,1006 @@
+{
+    "status": "succeeded",
+    "createdDateTime": "2020-04-27T12:12:07Z",
+    "lastUpdatedDateTime": "2020-04-27T12:12:08Z",
+    "analyzeResult": {
+        "version": "2.0.0",
+        "readResults": [
+            {
+                "page": 1,
+                "language": "en",
+                "angle": -0.1871,
+                "width": 740,
+                "height": 413,
+                "unit": "pixel",
+                "lines": [
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            144,
+                            48,
+                            604,
+                            47,
+                            604,
+                            77,
+                            145,
+                            79
+                        ],
+                        "text": "NOWY DOWOD OSOBISTY",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    145,
+                                    51,
+                                    262,
+                                    49,
+                                    262,
+                                    79,
+                                    145,
+                                    79
+                                ],
+                                "text": "NOWY",
+                                "confidence": 0.959
+                            },
+                            {
+                                "boundingBox": [
+                                    273,
+                                    48,
+                                    412,
+                                    47,
+                                    412,
+                                    79,
+                                    273,
+                                    79
+                                ],
+                                "text": "DOWOD",
+                                "confidence": 0.959
+                            },
+                            {
+                                "boundingBox": [
+                                    432,
+                                    47,
+                                    604,
+                                    48,
+                                    603,
+                                    77,
+                                    432,
+                                    79
+                                ],
+                                "text": "OSOBISTY",
+                                "confidence": 0.94
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            268,
+                            85,
+                            479,
+                            84,
+                            479,
+                            103,
+                            268,
+                            104
+                        ],
+                        "text": "od 1 marca 2015 roku",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    270,
+                                    86,
+                                    294,
+                                    86,
+                                    294,
+                                    105,
+                                    270,
+                                    105
+                                ],
+                                "text": "od",
+                                "confidence": 0.905
+                            },
+                            {
+                                "boundingBox": [
+                                    301,
+                                    85,
+                                    313,
+                                    85,
+                                    314,
+                                    105,
+                                    302,
+                                    105
+                                ],
+                                "text": "1",
+                                "confidence": 0.579
+                            },
+                            {
+                                "boundingBox": [
+                                    318,
+                                    85,
+                                    376,
+                                    84,
+                                    377,
+                                    104,
+                                    319,
+                                    105
+                                ],
+                                "text": "marca",
+                                "confidence": 0.916
+                            },
+                            {
+                                "boundingBox": [
+                                    384,
+                                    84,
+                                    431,
+                                    84,
+                                    431,
+                                    103,
+                                    384,
+                                    104
+                                ],
+                                "text": "2015",
+                                "confidence": 0.958
+                            },
+                            {
+                                "boundingBox": [
+                                    437,
+                                    85,
+                                    479,
+                                    85,
+                                    479,
+                                    103,
+                                    437,
+                                    103
+                                ],
+                                "text": "roku",
+                                "confidence": 0.952
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            494,
+                            132,
+                            590,
+                            132,
+                            590,
+                            146,
+                            494,
+                            146
+                        ],
+                        "text": "FOTOGRAFIA",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    496,
+                                    133,
+                                    588,
+                                    132,
+                                    589,
+                                    146,
+                                    496,
+                                    147
+                                ],
+                                "text": "FOTOGRAFIA",
+                                "confidence": 0.959
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            506,
+                            152,
+                            575,
+                            152,
+                            575,
+                            166,
+                            506,
+                            166
+                        ],
+                        "text": "do nowego",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    508,
+                                    152,
+                                    524,
+                                    152,
+                                    524,
+                                    167,
+                                    508,
+                                    166
+                                ],
+                                "text": "do",
+                                "confidence": 0.959
+                            },
+                            {
+                                "boundingBox": [
+                                    527,
+                                    152,
+                                    575,
+                                    153,
+                                    575,
+                                    167,
+                                    527,
+                                    167
+                                ],
+                                "text": "nowego",
+                                "confidence": 0.956
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            516,
+                            171,
+                            567,
+                            171,
+                            567,
+                            184,
+                            516,
+                            184
+                        ],
+                        "text": "dowodu",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    518,
+                                    172,
+                                    567,
+                                    171,
+                                    567,
+                                    184,
+                                    518,
+                                    184
+                                ],
+                                "text": "dowodu",
+                                "confidence": 0.958
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            193,
+                            184,
+                            394,
+                            186,
+                            394,
+                            200,
+                            193,
+                            198
+                        ],
+                        "text": "Rzeczpospolita Polska Republic of Poland",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    194,
+                                    185,
+                                    282,
+                                    185,
+                                    282,
+                                    200,
+                                    194,
+                                    199
+                                ],
+                                "text": "Rzeczpospolita",
+                                "confidence": 0.84
+                            },
+                            {
+                                "boundingBox": [
+                                    285,
+                                    185,
+                                    324,
+                                    186,
+                                    324,
+                                    200,
+                                    285,
+                                    200
+                                ],
+                                "text": "Polska",
+                                "confidence": 0.912
+                            },
+                            {
+                                "boundingBox": [
+                                    327,
+                                    186,
+                                    356,
+                                    187,
+                                    355,
+                                    200,
+                                    326,
+                                    200
+                                ],
+                                "text": "Republic",
+                                "confidence": 0.319
+                            },
+                            {
+                                "boundingBox": [
+                                    358,
+                                    187,
+                                    365,
+                                    187,
+                                    365,
+                                    199,
+                                    358,
+                                    200
+                                ],
+                                "text": "of",
+                                "confidence": 0.425
+                            },
+                            {
+                                "boundingBox": [
+                                    368,
+                                    187,
+                                    394,
+                                    188,
+                                    394,
+                                    199,
+                                    368,
+                                    199
+                                ],
+                                "text": "Poland",
+                                "confidence": 0.252
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            498,
+                            190,
+                            583,
+                            189,
+                            584,
+                            203,
+                            498,
+                            204
+                        ],
+                        "text": "jest taka sama",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    499,
+                                    190,
+                                    521,
+                                    190,
+                                    521,
+                                    204,
+                                    499,
+                                    204
+                                ],
+                                "text": "jest",
+                                "confidence": 0.959
+                            },
+                            {
+                                "boundingBox": [
+                                    524,
+                                    190,
+                                    549,
+                                    190,
+                                    550,
+                                    204,
+                                    524,
+                                    204
+                                ],
+                                "text": "taka",
+                                "confidence": 0.927
+                            },
+                            {
+                                "boundingBox": [
+                                    552,
+                                    190,
+                                    584,
+                                    190,
+                                    584,
+                                    204,
+                                    552,
+                                    204
+                                ],
+                                "text": "sama",
+                                "confidence": 0.958
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            193,
+                            203,
+                            337,
+                            203,
+                            337,
+                            217,
+                            193,
+                            216
+                        ],
+                        "text": "Dowod osobisty identity card",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    194,
+                                    203,
+                                    238,
+                                    203,
+                                    238,
+                                    217,
+                                    194,
+                                    216
+                                ],
+                                "text": "Dowod",
+                                "confidence": 0.762
+                            },
+                            {
+                                "boundingBox": [
+                                    240,
+                                    203,
+                                    288,
+                                    203,
+                                    288,
+                                    217,
+                                    240,
+                                    217
+                                ],
+                                "text": "osobisty",
+                                "confidence": 0.881
+                            },
+                            {
+                                "boundingBox": [
+                                    291,
+                                    203,
+                                    318,
+                                    204,
+                                    318,
+                                    217,
+                                    291,
+                                    217
+                                ],
+                                "text": "identity",
+                                "confidence": 0.443
+                            },
+                            {
+                                "boundingBox": [
+                                    321,
+                                    204,
+                                    338,
+                                    204,
+                                    338,
+                                    217,
+                                    321,
+                                    217
+                                ],
+                                "text": "card",
+                                "confidence": 0.626
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            341,
+                            223,
+                            374,
+                            208,
+                            383,
+                            229,
+                            351,
+                            245
+                        ],
+                        "text": "N",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    352,
+                                    217,
+                                    366,
+                                    210,
+                                    377,
+                                    232,
+                                    362,
+                                    239
+                                ],
+                                "text": "N",
+                                "confidence": 0.799
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            483,
+                            208,
+                            599,
+                            207,
+                            599,
+                            222,
+                            483,
+                            223
+                        ],
+                        "text": "jak ta do paszportu",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    485,
+                                    209,
+                                    502,
+                                    209,
+                                    502,
+                                    223,
+                                    485,
+                                    224
+                                ],
+                                "text": "jak",
+                                "confidence": 0.941
+                            },
+                            {
+                                "boundingBox": [
+                                    505,
+                                    209,
+                                    517,
+                                    208,
+                                    517,
+                                    223,
+                                    505,
+                                    223
+                                ],
+                                "text": "ta",
+                                "confidence": 0.846
+                            },
+                            {
+                                "boundingBox": [
+                                    520,
+                                    208,
+                                    535,
+                                    208,
+                                    535,
+                                    223,
+                                    520,
+                                    223
+                                ],
+                                "text": "do",
+                                "confidence": 0.958
+                            },
+                            {
+                                "boundingBox": [
+                                    538,
+                                    208,
+                                    599,
+                                    208,
+                                    599,
+                                    223,
+                                    538,
+                                    223
+                                ],
+                                "text": "paszportu",
+                                "confidence": 0.942
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            256,
+                            237,
+                            323,
+                            237,
+                            323,
+                            249,
+                            256,
+                            249
+                        ],
+                        "text": "KOWALSKI",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    257,
+                                    238,
+                                    323,
+                                    237,
+                                    323,
+                                    249,
+                                    257,
+                                    249
+                                ],
+                                "text": "KOWALSKI",
+                                "confidence": 0.959
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            257,
+                            267,
+                            289,
+                            266,
+                            289,
+                            277,
+                            258,
+                            278
+                        ],
+                        "text": "JAN",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    258,
+                                    267,
+                                    280,
+                                    266,
+                                    281,
+                                    277,
+                                    259,
+                                    278
+                                ],
+                                "text": "JAN",
+                                "confidence": 0.958
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            498,
+                            265,
+                            585,
+                            264,
+                            585,
+                            279,
+                            498,
+                            279
+                        ],
+                        "text": "Nowy dowod",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    500,
+                                    265,
+                                    537,
+                                    265,
+                                    537,
+                                    280,
+                                    500,
+                                    279
+                                ],
+                                "text": "Nowy",
+                                "confidence": 0.958
+                            },
+                            {
+                                "boundingBox": [
+                                    540,
+                                    265,
+                                    585,
+                                    265,
+                                    585,
+                                    279,
+                                    540,
+                                    280
+                                ],
+                                "text": "dowod",
+                                "confidence": 0.91
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            257,
+                            294,
+                            309,
+                            293,
+                            309,
+                            303,
+                            257,
+                            303
+                        ],
+                        "text": "KOWALSKI",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    257,
+                                    295,
+                                    309,
+                                    294,
+                                    309,
+                                    303,
+                                    258,
+                                    304
+                                ],
+                                "text": "KOWALSKI",
+                                "confidence": 0.935
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            495,
+                            283,
+                            591,
+                            283,
+                            591,
+                            297,
+                            495,
+                            297
+                        ],
+                        "text": "NIE ZAWIERA",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    496,
+                                    284,
+                                    521,
+                                    284,
+                                    521,
+                                    297,
+                                    496,
+                                    297
+                                ],
+                                "text": "NIE",
+                                "confidence": 0.958
+                            },
+                            {
+                                "boundingBox": [
+                                    525,
+                                    284,
+                                    590,
+                                    284,
+                                    589,
+                                    298,
+                                    524,
+                                    297
+                                ],
+                                "text": "ZAWIERA",
+                                "confidence": 0.948
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            521,
+                            303,
+                            564,
+                            303,
+                            564,
+                            316,
+                            521,
+                            317
+                        ],
+                        "text": "adresu",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    522,
+                                    304,
+                                    564,
+                                    304,
+                                    564,
+                                    317,
+                                    522,
+                                    317
+                                ],
+                                "text": "adresu",
+                                "confidence": 0.958
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            258,
+                            322,
+                            334,
+                            322,
+                            334,
+                            331,
+                            258,
+                            331
+                        ],
+                        "text": "ADAM BARBARA",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    258,
+                                    323,
+                                    284,
+                                    323,
+                                    284,
+                                    331,
+                                    259,
+                                    332
+                                ],
+                                "text": "ADAM",
+                                "confidence": 0.909
+                            },
+                            {
+                                "boundingBox": [
+                                    288,
+                                    323,
+                                    334,
+                                    323,
+                                    335,
+                                    331,
+                                    288,
+                                    331
+                                ],
+                                "text": "BARBARA",
+                                "confidence": 0.959
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            496,
+                            322,
+                            587,
+                            321,
+                            587,
+                            336,
+                            496,
+                            336
+                        ],
+                        "text": "zameldowania,",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    499,
+                                    323,
+                                    587,
+                                    322,
+                                    587,
+                                    337,
+                                    499,
+                                    336
+                                ],
+                                "text": "zameldowania,",
+                                "confidence": 0.793
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            258,
+                            351,
+                            308,
+                            351,
+                            308,
+                            360,
+                            258,
+                            360
+                        ],
+                        "text": "02.01.1981",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    259,
+                                    352,
+                                    307,
+                                    351,
+                                    306,
+                                    361,
+                                    259,
+                                    361
+                                ],
+                                "text": "02.01.1981",
+                                "confidence": 0.344
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            480,
+                            339,
+                            604,
+                            341,
+                            604,
+                            355,
+                            480,
+                            354
+                        ],
+                        "text": "koloru oczu, wzrostu,",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    481,
+                                    340,
+                                    518,
+                                    341,
+                                    519,
+                                    355,
+                                    481,
+                                    354
+                                ],
+                                "text": "koloru",
+                                "confidence": 0.876
+                            },
+                            {
+                                "boundingBox": [
+                                    521,
+                                    341,
+                                    552,
+                                    341,
+                                    552,
+                                    355,
+                                    521,
+                                    355
+                                ],
+                                "text": "oczu,",
+                                "confidence": 0.885
+                            },
+                            {
+                                "boundingBox": [
+                                    555,
+                                    341,
+                                    604,
+                                    341,
+                                    604,
+                                    355,
+                                    555,
+                                    355
+                                ],
+                                "text": "wzrostu,",
+                                "confidence": 0.815
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            483,
+                            359,
+                            602,
+                            357,
+                            602,
+                            373,
+                            484,
+                            375
+                        ],
+                        "text": "podpisu posiadacza",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    484,
+                                    360,
+                                    532,
+                                    360,
+                                    532,
+                                    374,
+                                    485,
+                                    375
+                                ],
+                                "text": "podpisu",
+                                "confidence": 0.948
+                            },
+                            {
+                                "boundingBox": [
+                                    535,
+                                    360,
+                                    602,
+                                    358,
+                                    602,
+                                    373,
+                                    535,
+                                    374
+                                ],
+                                "text": "posiadacza",
+                                "confidence": 0.915
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "pageResults": [
+            {
+                "page": 1,
+                "tables": []
+            }
+        ]
+    }
+}

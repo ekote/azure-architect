@@ -1,0 +1,24 @@
+{
+    "fields": [
+        {
+            "fieldKey": "nazwisko",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "imiona",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "obywatelstwo",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        },
+        {
+            "fieldKey": "numer can",
+            "fieldType": "string",
+            "fieldFormat": "not-specified"
+        }
+    ]
+}

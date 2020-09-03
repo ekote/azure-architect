@@ -1,0 +1,810 @@
+{
+    "status": "succeeded",
+    "createdDateTime": "2020-04-27T12:12:43Z",
+    "lastUpdatedDateTime": "2020-04-27T12:12:44Z",
+    "analyzeResult": {
+        "version": "2.0.0",
+        "readResults": [
+            {
+                "page": 1,
+                "language": "en",
+                "angle": 0.264,
+                "width": 750,
+                "height": 564,
+                "unit": "pixel",
+                "lines": [
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            213,
+                            102,
+                            561,
+                            113,
+                            560,
+                            136,
+                            212,
+                            127
+                        ],
+                        "text": "Rzeczpospolita Polska Republic of Poland",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    213,
+                                    102,
+                                    370,
+                                    107,
+                                    370,
+                                    133,
+                                    212,
+                                    126
+                                ],
+                                "text": "Rzeczpospolita",
+                                "confidence": 0.936
+                            },
+                            {
+                                "boundingBox": [
+                                    375,
+                                    107,
+                                    440,
+                                    110,
+                                    440,
+                                    135,
+                                    375,
+                                    133
+                                ],
+                                "text": "Polska",
+                                "confidence": 0.909
+                            },
+                            {
+                                "boundingBox": [
+                                    445,
+                                    111,
+                                    496,
+                                    114,
+                                    496,
+                                    135,
+                                    445,
+                                    135
+                                ],
+                                "text": "Republic",
+                                "confidence": 0.897
+                            },
+                            {
+                                "boundingBox": [
+                                    501,
+                                    114,
+                                    512,
+                                    114,
+                                    512,
+                                    135,
+                                    501,
+                                    135
+                                ],
+                                "text": "of",
+                                "confidence": 0.914
+                            },
+                            {
+                                "boundingBox": [
+                                    517,
+                                    115,
+                                    560,
+                                    118,
+                                    561,
+                                    135,
+                                    517,
+                                    135
+                                ],
+                                "text": "Poland",
+                                "confidence": 0.702
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            215,
+                            134,
+                            467,
+                            142,
+                            466,
+                            168,
+                            214,
+                            160
+                        ],
+                        "text": "Dowod osobisty Identity card",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    215,
+                                    135,
+                                    293,
+                                    137,
+                                    292,
+                                    163,
+                                    214,
+                                    160
+                                ],
+                                "text": "Dowod",
+                                "confidence": 0.93
+                            },
+                            {
+                                "boundingBox": [
+                                    298,
+                                    137,
+                                    381,
+                                    140,
+                                    380,
+                                    166,
+                                    297,
+                                    163
+                                ],
+                                "text": "osobisty",
+                                "confidence": 0.952
+                            },
+                            {
+                                "boundingBox": [
+                                    386,
+                                    140,
+                                    432,
+                                    142,
+                                    431,
+                                    167,
+                                    385,
+                                    166
+                                ],
+                                "text": "Identity",
+                                "confidence": 0.694
+                            },
+                            {
+                                "boundingBox": [
+                                    437,
+                                    142,
+                                    467,
+                                    143,
+                                    466,
+                                    168,
+                                    436,
+                                    167
+                                ],
+                                "text": "card",
+                                "confidence": 0.909
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            330,
+                            183,
+                            443,
+                            183,
+                            443,
+                            198,
+                            330,
+                            197
+                        ],
+                        "text": "NAZWISED / SURNAME",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    331,
+                                    183,
+                                    381,
+                                    184,
+                                    381,
+                                    198,
+                                    330,
+                                    197
+                                ],
+                                "text": "NAZWISED",
+                                "confidence": 0.275
+                            },
+                            {
+                                "boundingBox": [
+                                    384,
+                                    184,
+                                    388,
+                                    184,
+                                    388,
+                                    198,
+                                    383,
+                                    198
+                                ],
+                                "text": "/",
+                                "confidence": 0.799
+                            },
+                            {
+                                "boundingBox": [
+                                    391,
+                                    184,
+                                    441,
+                                    183,
+                                    441,
+                                    199,
+                                    391,
+                                    198
+                                ],
+                                "text": "SURNAME",
+                                "confidence": 0.57
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            454,
+                            195,
+                            527,
+                            147,
+                            550,
+                            186,
+                            478,
+                            234
+                        ],
+                        "text": "EN",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    454,
+                                    195,
+                                    511,
+                                    157,
+                                    536,
+                                    195,
+                                    478,
+                                    233
+                                ],
+                                "text": "EN",
+                                "confidence": 0.437
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            329,
+                            204,
+                            447,
+                            205,
+                            447,
+                            226,
+                            329,
+                            225
+                        ],
+                        "text": "KOWALSKI",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    329,
+                                    205,
+                                    447,
+                                    207,
+                                    446,
+                                    227,
+                                    329,
+                                    226
+                                ],
+                                "text": "KOWALSKI",
+                                "confidence": 0.901
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            328,
+                            235,
+                            445,
+                            234,
+                            445,
+                            251,
+                            328,
+                            252
+                        ],
+                        "text": "IMIONA'Y GIVEN NANCY",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    331,
+                                    238,
+                                    374,
+                                    239,
+                                    376,
+                                    252,
+                                    330,
+                                    252
+                                ],
+                                "text": "IMIONA'Y",
+                                "confidence": 0.444
+                            },
+                            {
+                                "boundingBox": [
+                                    377,
+                                    239,
+                                    404,
+                                    238,
+                                    406,
+                                    252,
+                                    379,
+                                    252
+                                ],
+                                "text": "GIVEN",
+                                "confidence": 0.278
+                            },
+                            {
+                                "boundingBox": [
+                                    406,
+                                    238,
+                                    441,
+                                    234,
+                                    445,
+                                    251,
+                                    409,
+                                    252
+                                ],
+                                "text": "NANCY",
+                                "confidence": 0.259
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            331,
+                            259,
+                            377,
+                            260,
+                            376,
+                            278,
+                            331,
+                            277
+                        ],
+                        "text": "JAN",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    334,
+                                    259,
+                                    372,
+                                    260,
+                                    372,
+                                    278,
+                                    334,
+                                    277
+                                ],
+                                "text": "JAN",
+                                "confidence": 0.958
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            329,
+                            292,
+                            507,
+                            294,
+                            506,
+                            309,
+                            329,
+                            307
+                        ],
+                        "text": "NAZIISKO RODOWE / FAMILY NAME",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    332,
+                                    293,
+                                    384,
+                                    294,
+                                    384,
+                                    308,
+                                    332,
+                                    307
+                                ],
+                                "text": "NAZIISKO",
+                                "confidence": 0.284
+                            },
+                            {
+                                "boundingBox": [
+                                    387,
+                                    294,
+                                    430,
+                                    294,
+                                    430,
+                                    309,
+                                    387,
+                                    308
+                                ],
+                                "text": "RODOWE",
+                                "confidence": 0.298
+                            },
+                            {
+                                "boundingBox": [
+                                    433,
+                                    294,
+                                    437,
+                                    294,
+                                    437,
+                                    309,
+                                    433,
+                                    309
+                                ],
+                                "text": "/",
+                                "confidence": 0.799
+                            },
+                            {
+                                "boundingBox": [
+                                    440,
+                                    294,
+                                    472,
+                                    295,
+                                    472,
+                                    309,
+                                    440,
+                                    309
+                                ],
+                                "text": "FAMILY",
+                                "confidence": 0.28
+                            },
+                            {
+                                "boundingBox": [
+                                    475,
+                                    295,
+                                    507,
+                                    295,
+                                    507,
+                                    309,
+                                    475,
+                                    309
+                                ],
+                                "text": "NAME",
+                                "confidence": 0.727
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            331,
+                            309,
+                            421,
+                            309,
+                            421,
+                            327,
+                            331,
+                            326
+                        ],
+                        "text": "KOWALSKI",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    333,
+                                    309,
+                                    422,
+                                    310,
+                                    421,
+                                    328,
+                                    334,
+                                    327
+                                ],
+                                "text": "KOWALSKI",
+                                "confidence": 0.948
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            335,
+                            347,
+                            552,
+                            347,
+                            552,
+                            362,
+                            335,
+                            360
+                        ],
+                        "text": "IMIONA BOOZICOW / PARENTS GIVDENAMES",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    335,
+                                    348,
+                                    372,
+                                    348,
+                                    372,
+                                    360,
+                                    335,
+                                    360
+                                ],
+                                "text": "IMIONA",
+                                "confidence": 0.455
+                            },
+                            {
+                                "boundingBox": [
+                                    374,
+                                    348,
+                                    426,
+                                    348,
+                                    426,
+                                    361,
+                                    374,
+                                    360
+                                ],
+                                "text": "BOOZICOW",
+                                "confidence": 0.425
+                            },
+                            {
+                                "boundingBox": [
+                                    429,
+                                    348,
+                                    434,
+                                    348,
+                                    434,
+                                    361,
+                                    429,
+                                    361
+                                ],
+                                "text": "/",
+                                "confidence": 0.727
+                            },
+                            {
+                                "boundingBox": [
+                                    437,
+                                    348,
+                                    481,
+                                    348,
+                                    481,
+                                    362,
+                                    436,
+                                    361
+                                ],
+                                "text": "PARENTS",
+                                "confidence": 0.57
+                            },
+                            {
+                                "boundingBox": [
+                                    484,
+                                    348,
+                                    551,
+                                    348,
+                                    551,
+                                    363,
+                                    484,
+                                    362
+                                ],
+                                "text": "GIVDENAMES",
+                                "confidence": 0.252
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            335,
+                            363,
+                            468,
+                            364,
+                            468,
+                            379,
+                            335,
+                            379
+                        ],
+                        "text": "ADAM BARBARA",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    336,
+                                    364,
+                                    380,
+                                    364,
+                                    380,
+                                    379,
+                                    336,
+                                    379
+                                ],
+                                "text": "ADAM",
+                                "confidence": 0.958
+                            },
+                            {
+                                "boundingBox": [
+                                    388,
+                                    364,
+                                    468,
+                                    364,
+                                    467,
+                                    380,
+                                    388,
+                                    379
+                                ],
+                                "text": "BARBARA",
+                                "confidence": 0.959
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            336,
+                            402,
+                            564,
+                            402,
+                            564,
+                            415,
+                            336,
+                            415
+                        ],
+                        "text": "DATA UPOOZENIA DATE OF BIRTH PRECI SEX",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    336,
+                                    403,
+                                    362,
+                                    403,
+                                    362,
+                                    415,
+                                    337,
+                                    415
+                                ],
+                                "text": "DATA",
+                                "confidence": 1
+                            },
+                            {
+                                "boundingBox": [
+                                    364,
+                                    403,
+                                    422,
+                                    403,
+                                    422,
+                                    415,
+                                    364,
+                                    415
+                                ],
+                                "text": "UPOOZENIA",
+                                "confidence": 0.243
+                            },
+                            {
+                                "boundingBox": [
+                                    429,
+                                    403,
+                                    454,
+                                    403,
+                                    454,
+                                    415,
+                                    429,
+                                    415
+                                ],
+                                "text": "DATE",
+                                "confidence": 0.997
+                            },
+                            {
+                                "boundingBox": [
+                                    456,
+                                    403,
+                                    469,
+                                    403,
+                                    469,
+                                    415,
+                                    456,
+                                    415
+                                ],
+                                "text": "OF",
+                                "confidence": 1
+                            },
+                            {
+                                "boundingBox": [
+                                    471,
+                                    403,
+                                    499,
+                                    403,
+                                    499,
+                                    415,
+                                    471,
+                                    415
+                                ],
+                                "text": "BIRTH",
+                                "confidence": 1
+                            },
+                            {
+                                "boundingBox": [
+                                    514,
+                                    402,
+                                    544,
+                                    402,
+                                    544,
+                                    415,
+                                    514,
+                                    415
+                                ],
+                                "text": "PRECI",
+                                "confidence": 0.277
+                            },
+                            {
+                                "boundingBox": [
+                                    546,
+                                    402,
+                                    565,
+                                    402,
+                                    565,
+                                    415,
+                                    546,
+                                    415
+                                ],
+                                "text": "SEX",
+                                "confidence": 0.422
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            338,
+                            418,
+                            418,
+                            417,
+                            418,
+                            432,
+                            338,
+                            434
+                        ],
+                        "text": "02.01.1981",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    339,
+                                    418,
+                                    418,
+                                    418,
+                                    418,
+                                    433,
+                                    339,
+                                    434
+                                ],
+                                "text": "02.01.1981",
+                                "confidence": 0.909
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            513,
+                            419,
+                            528,
+                            418,
+                            529,
+                            431,
+                            514,
+                            432
+                        ],
+                        "text": "M",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    515,
+                                    419,
+                                    524,
+                                    418,
+                                    525,
+                                    431,
+                                    516,
+                                    432
+                                ],
+                                "text": "M",
+                                "confidence": 0.894
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "pageResults": [
+            {
+                "page": 1,
+                "tables": []
+            }
+        ]
+    }
+}

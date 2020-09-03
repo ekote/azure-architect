@@ -1,0 +1,192 @@
+{
+    "sourceConnection": {
+        "providerOptions": {
+            "encrypted": "eyJjaXBoZXJ0ZXh0IjoiMTA3ODY5ZmRlMzdhOGRiNGU1ZGU0Yzk5NGI1YTMxZDA4MGQzMjkyZDBlNzQ0NGM4YmZhMzI5ODM5OTYyMjNlY2ZkN2UwNDc3YTljMTRmNzQ2YmQxZWRiYjIxMWU4YWM2MzIyMTE2YjZiOGE3OTlhZjRkMTAzOWEwZDYzM2ViMGVhZWY3NDU0Yzc4NTU3MDJmNmM2YjI4ZGMzOWUyODI1ZWU2YjJiMDI0ODliMWZkODI4ZDNiMjY2YWRmZmFlODUwMTcxODYwZGQ3MzcwMmY3NTEwYzIyMzQzMGEzYmY5OGVkZWI2MDI5NmQ4ZTI4ZmQwY2Y5YzdjYWE3ZDAxNjZhZDg5NzBjOGIwMWJmMTI3OTlkZjgyNWFlOTA0ZDc2NjQ2ODIxMDYxZjAxYjgxNzJiZjIyYjNiNzQ1OTFmMGEzNDA1OWUxZDk1NTU3NTU2MGZkZGZiZjdkNGE0ZDA4MmE1ZTUzMWUxY2IzNjQ0ODY2NmRiYjE1M2VjNDQzYWMxNzM0OGZkMTYyNTk0YmFhNTMwOGM1MDA5ZGY0MjhkN2ZmMmYxZDhkNGMwN2M5MWIwZDRhOWM1N2EyZTQ2ZmIyYjM1YyIsIml2IjoiMjBkNzA1OTA0ODQ4ZWNhMWIwZmIzZDBmYWNiNjhmNjgifQ=="
+        },
+        "id": "2q-7NGitv",
+        "name": "SA dataekot",
+        "providerType": "azureBlobStorage",
+        "description": "SA dataekot"
+    },
+    "apiKey": {
+        "encrypted": "eyJjaXBoZXJ0ZXh0IjoiNDczYzgyYmUyY2JiN2NhOTdhZDhlNWVjNGM0MDIxY2NiN2VjOGJkZjc2ZjgzNmMyYzRiMmE1OTRkOWVjYjAyNTIzYWI2NWI1ZWU2NWU2MWM1ODM5Yzk5MDk3MzgzYWFjIiwiaXYiOiIwYjZjMjhkMDFkNWIwZmZjOTFiOGRlODc5NTgxYWJmMiJ9"
+    },
+    "name": "Polish ID",
+    "folderPath": "polish_ids",
+    "apiUriBase": "https://form-regognizer-ekot.cognitiveservices.azure.com/",
+    "securityToken": "Polish ID Token",
+    "version": "2.0.0",
+    "id": "VBNz5qVTJ",
+    "tags": [
+        {
+            "name": "nazwisko",
+            "color": "#CC543A",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 7
+        },
+        {
+            "name": "imiona",
+            "color": "#7BA23F",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 6
+        },
+        {
+            "name": "obywatelstwo",
+            "color": "#58B2DC",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 3
+        },
+        {
+            "name": "numer can",
+            "color": "#FFB11B",
+            "type": "string",
+            "format": "not-specified",
+            "documentCount": 4
+        }
+    ],
+    "assets": {
+        "a72bac51c310f0484b2cefbf9330f5ebc74f8b8817650809ad809c114fcdcb76": {
+            "id": "a72bac51c310f0484b2cefbf9330f5ebc74f8b8817650809ad809c114fcdcb76",
+            "format": "png",
+            "state": 2,
+            "type": 1,
+            "name": "polish_ids/309086_panorama_png_90_resize_770x593.png",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2F309086_panorama_png_90_resize_770x593.png?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        },
+        "8acba99cc5fec066fdc37f9717d0e121026f4a9bb535377c79d9edc529556919": {
+            "id": "8acba99cc5fec066fdc37f9717d0e121026f4a9bb535377c79d9edc529556919",
+            "format": "jpg",
+            "state": 2,
+            "type": 1,
+            "name": "polish_ids/45fa948581a4d67cc27009bd025796b1_w740_h413_cp.jpg",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2F45fa948581a4d67cc27009bd025796b1_w740_h413_cp.jpg?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        },
+        "bb527d7d5d145df9b1c3a0a4ca742aa96e638fddb9a38ad91b9d23a056121fed": {
+            "id": "bb527d7d5d145df9b1c3a0a4ca742aa96e638fddb9a38ad91b9d23a056121fed",
+            "format": "jpg",
+            "state": 2,
+            "type": 1,
+            "name": "polish_ids/892974_1577998503.jpg",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2F892974_1577998503.jpg?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        },
+        "81005e07ef8f6de64f6abbc66da0c786b3e58e1ce8b937f7d686b3e78a5c140f": {
+            "id": "81005e07ef8f6de64f6abbc66da0c786b3e58e1ce8b937f7d686b3e78a5c140f",
+            "format": "jpg",
+            "state": 2,
+            "type": 1,
+            "name": "polish_ids/a5a85eb2ad87635cf5e66f151161c3adsprawdzwaznoscdowoduosobistegodowod2.jpg",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2Fa5a85eb2ad87635cf5e66f151161c3adsprawdzwaznoscdowoduosobistegodowod2.jpg?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        },
+        "cd32b3359068024eb17b5e9599675df772eb6b6c24f4932f01e3dd8f58cc4579": {
+            "id": "cd32b3359068024eb17b5e9599675df772eb6b6c24f4932f01e3dd8f58cc4579",
+            "format": "jpg",
+            "state": 2,
+            "type": 1,
+            "name": "polish_ids/dowod_osobisty (1).jpg",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2Fdowod_osobisty%20(1).jpg?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        },
+        "f158b22aa5590b1ea678a9cb8f5b7db4b229b64b8ace9a9061eea4b6175cd2e1": {
+            "id": "f158b22aa5590b1ea678a9cb8f5b7db4b229b64b8ace9a9061eea4b6175cd2e1",
+            "format": "jpg",
+            "state": 1,
+            "type": 1,
+            "name": "polish_ids/dowod_osobisty.jpg",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2Fdowod_osobisty.jpg?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        },
+        "4782047f728b900faaebd2b63baa635d14f5be0f28502f20481d70112cf7eeb3": {
+            "id": "4782047f728b900faaebd2b63baa635d14f5be0f28502f20481d70112cf7eeb3",
+            "format": "jpg",
+            "state": 2,
+            "type": 1,
+            "name": "polish_ids/gf-Xy5T-292t-XqP1_kupilismy-dowod-osobisty-w-internecie-664x442-nocrop.jpg",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2Fgf-Xy5T-292t-XqP1_kupilismy-dowod-osobisty-w-internecie-664x442-nocrop.jpg?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        },
+        "f9d06482074545e76d7e396982fd24ae803b6ed8723e9fc974af2d01e163fc8f": {
+            "id": "f9d06482074545e76d7e396982fd24ae803b6ed8723e9fc974af2d01e163fc8f",
+            "format": "png",
+            "state": 1,
+            "type": 1,
+            "name": "polish_ids/grafika.png",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2Fgrafika.png?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        },
+        "6dfeb40c40e0daf1e89a766b23cd07fbada993f191b30a6840ec429ff079465c": {
+            "id": "6dfeb40c40e0daf1e89a766b23cd07fbada993f191b30a6840ec429ff079465c",
+            "format": "jpg",
+            "state": 1,
+            "type": 1,
+            "name": "polish_ids/id2.jpg",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2Fid2.jpg?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        },
+        "345e35a4d17d3b675c2d6ef21836994a3464b04618e18ebbda06a02bf2507f36": {
+            "id": "345e35a4d17d3b675c2d6ef21836994a3464b04618e18ebbda06a02bf2507f36",
+            "format": "jpg",
+            "state": 1,
+            "type": 1,
+            "name": "polish_ids/oplatek-na-tort-dowod-osobisty-na-18-urodziny-654036.jpg",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2Foplatek-na-tort-dowod-osobisty-na-18-urodziny-654036.jpg?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        },
+        "d6947a5e754d31857bf41abc9d5cc8328ce773114fc13b83e6cca5b986e0d7c7": {
+            "id": "d6947a5e754d31857bf41abc9d5cc8328ce773114fc13b83e6cca5b986e0d7c7",
+            "format": "png",
+            "state": 2,
+            "type": 1,
+            "name": "polish_ids/pozyczka-na-dowod.png",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2Fpozyczka-na-dowod.png?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        },
+        "061ba9f70a26868f8d5ae1706b3d7a74c1087511eeddee4c7de9b32041d45927": {
+            "id": "061ba9f70a26868f8d5ae1706b3d7a74c1087511eeddee4c7de9b32041d45927",
+            "format": "jpg",
+            "state": 1,
+            "type": 1,
+            "name": "polish_ids/starydo.jpg",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2Fstarydo.jpg?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        },
+        "ccd3f141bfecdf4420becbba4b0dfb0f84704789f1d20cae25cbd9fd311d770a": {
+            "id": "ccd3f141bfecdf4420becbba4b0dfb0f84704789f1d20cae25cbd9fd311d770a",
+            "format": "jpg",
+            "state": 1,
+            "type": 1,
+            "name": "polish_ids/z24519503V,Kolekcjonerski-dowod-osobisty.jpg",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2Fz24519503V%2CKolekcjonerski-dowod-osobisty.jpg?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        },
+        "7fa1fd0daf9fcee540ffd140876fdfd4c8746e6ed5a0b893683a350c611e184e": {
+            "id": "7fa1fd0daf9fcee540ffd140876fdfd4c8746e6ed5a0b893683a350c611e184e",
+            "format": "jpg",
+            "state": 1,
+            "type": 1,
+            "name": "polish_ids/zastrzezenie-dowodu-osobistego.jpg",
+            "path": "https://dataekot.blob.core.windows.net/images/polish_ids%2Fzastrzezenie-dowodu-osobistego.jpg?sv=2019-12-12&ss=bfqt&srt=sco&sp=rwdlacupx&se=2020-09-03T14:22:38Z&st=2020-09-03T06:22:38Z&spr=https,http&sig=QlPDDS1TADOuzg9UALWdhB6Zd%2BmHhvhWrRYzbHx7yrQ%3D",
+            "size": null
+        }
+    },
+    "lastVisitedAssetId": "d6947a5e754d31857bf41abc9d5cc8328ce773114fc13b83e6cca5b986e0d7c7",
+    "trainRecord": {
+        "modelInfo": {
+            "modelId": "6d7b3ef5-3277-4499-a1eb-aafd4ae99613",
+            "createdDateTime": "2020-09-03T06:26:20Z"
+        },
+        "averageAccuracy": 0.25,
+        "accuracies": {
+            "imiona": 0,
+            "nazwisko": 0.143,
+            "numer can": 0.429,
+            "obywatelstwo": 0.429
+        }
+    }
+}

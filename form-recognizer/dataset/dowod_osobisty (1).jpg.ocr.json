@@ -1,0 +1,1162 @@
+{
+    "status": "succeeded",
+    "createdDateTime": "2020-04-27T12:13:27Z",
+    "lastUpdatedDateTime": "2020-04-27T12:13:28Z",
+    "analyzeResult": {
+        "version": "2.0.0",
+        "readResults": [
+            {
+                "page": 1,
+                "language": "en",
+                "angle": -5.6017,
+                "width": 1300,
+                "height": 850,
+                "unit": "pixel",
+                "lines": [
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            460,
+                            210,
+                            972,
+                            177,
+                            974,
+                            201,
+                            460,
+                            243
+                        ],
+                        "text": "Rzeczpospolita Polska Republic of Poland",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    461,
+                                    214,
+                                    687,
+                                    192,
+                                    687,
+                                    224,
+                                    461,
+                                    244
+                                ],
+                                "text": "Rzeczpospolita",
+                                "confidence": 0.899
+                            },
+                            {
+                                "boundingBox": [
+                                    693,
+                                    192,
+                                    791,
+                                    185,
+                                    791,
+                                    214,
+                                    693,
+                                    223
+                                ],
+                                "text": "Polska",
+                                "confidence": 0.944
+                            },
+                            {
+                                "boundingBox": [
+                                    805,
+                                    184,
+                                    881,
+                                    181,
+                                    882,
+                                    205,
+                                    805,
+                                    213
+                                ],
+                                "text": "Republic",
+                                "confidence": 0.952
+                            },
+                            {
+                                "boundingBox": [
+                                    887,
+                                    181,
+                                    905,
+                                    180,
+                                    906,
+                                    203,
+                                    888,
+                                    204
+                                ],
+                                "text": "of",
+                                "confidence": 0.909
+                            },
+                            {
+                                "boundingBox": [
+                                    911,
+                                    180,
+                                    973,
+                                    178,
+                                    973,
+                                    196,
+                                    911,
+                                    202
+                                ],
+                                "text": "Poland",
+                                "confidence": 0.849
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            462,
+                            244,
+                            833,
+                            217,
+                            836,
+                            246,
+                            464,
+                            275
+                        ],
+                        "text": "Dowod osobisty Identity card",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    462,
+                                    246,
+                                    576,
+                                    235,
+                                    578,
+                                    268,
+                                    465,
+                                    275
+                                ],
+                                "text": "Dowod",
+                                "confidence": 0.911
+                            },
+                            {
+                                "boundingBox": [
+                                    583,
+                                    235,
+                                    711,
+                                    225,
+                                    712,
+                                    256,
+                                    585,
+                                    267
+                                ],
+                                "text": "osobisty",
+                                "confidence": 0.954
+                            },
+                            {
+                                "boundingBox": [
+                                    717,
+                                    224,
+                                    787,
+                                    220,
+                                    789,
+                                    249,
+                                    718,
+                                    256
+                                ],
+                                "text": "Identity",
+                                "confidence": 0.727
+                            },
+                            {
+                                "boundingBox": [
+                                    793,
+                                    220,
+                                    834,
+                                    218,
+                                    835,
+                                    244,
+                                    794,
+                                    248
+                                ],
+                                "text": "card",
+                                "confidence": 0.958
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            1082,
+                            175,
+                            1125,
+                            170,
+                            1130,
+                            203,
+                            1086,
+                            207
+                        ],
+                        "text": "O",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1087,
+                                    173,
+                                    1109,
+                                    171,
+                                    1112,
+                                    204,
+                                    1090,
+                                    206
+                                ],
+                                "text": "O",
+                                "confidence": 0.727
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            638,
+                            281,
+                            810,
+                            265,
+                            812,
+                            283,
+                            640,
+                            299
+                        ],
+                        "text": "NAZWISKO / SURNAME",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    640,
+                                    282,
+                                    721,
+                                    275,
+                                    723,
+                                    292,
+                                    642,
+                                    299
+                                ],
+                                "text": "NAZWISKO",
+                                "confidence": 0.914
+                            },
+                            {
+                                "boundingBox": [
+                                    725,
+                                    274,
+                                    733,
+                                    274,
+                                    734,
+                                    290,
+                                    726,
+                                    291
+                                ],
+                                "text": "/",
+                                "confidence": 0.799
+                            },
+                            {
+                                "boundingBox": [
+                                    736,
+                                    273,
+                                    810,
+                                    266,
+                                    812,
+                                    284,
+                                    738,
+                                    290
+                                ],
+                                "text": "SURNAME",
+                                "confidence": 0.957
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            643,
+                            308,
+                            1161,
+                            259,
+                            1163,
+                            287,
+                            646,
+                            335
+                        ],
+                        "text": "KOWALSKI - BRZECZYSZCZYKIEWICZ",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    644,
+                                    308,
+                                    799,
+                                    294,
+                                    801,
+                                    322,
+                                    647,
+                                    334
+                                ],
+                                "text": "KOWALSKI",
+                                "confidence": 0.935
+                            },
+                            {
+                                "boundingBox": [
+                                    804,
+                                    294,
+                                    817,
+                                    293,
+                                    820,
+                                    320,
+                                    806,
+                                    321
+                                ],
+                                "text": "-",
+                                "confidence": 0.849
+                            },
+                            {
+                                "boundingBox": [
+                                    823,
+                                    292,
+                                    1159,
+                                    260,
+                                    1161,
+                                    286,
+                                    825,
+                                    319
+                                ],
+                                "text": "BRZECZYSZCZYKIEWICZ",
+                                "confidence": 0.898
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            646,
+                            352,
+                            823,
+                            334,
+                            824,
+                            351,
+                            648,
+                            370
+                        ],
+                        "text": "IMIONA / GIVEN NAMES",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    647,
+                                    353,
+                                    704,
+                                    348,
+                                    706,
+                                    364,
+                                    649,
+                                    370
+                                ],
+                                "text": "IMIONA",
+                                "confidence": 0.69
+                            },
+                            {
+                                "boundingBox": [
+                                    708,
+                                    347,
+                                    716,
+                                    346,
+                                    718,
+                                    363,
+                                    709,
+                                    363
+                                ],
+                                "text": "/",
+                                "confidence": 0.795
+                            },
+                            {
+                                "boundingBox": [
+                                    719,
+                                    346,
+                                    763,
+                                    341,
+                                    764,
+                                    358,
+                                    721,
+                                    362
+                                ],
+                                "text": "GIVEN",
+                                "confidence": 0.931
+                            },
+                            {
+                                "boundingBox": [
+                                    767,
+                                    341,
+                                    823,
+                                    334,
+                                    824,
+                                    352,
+                                    769,
+                                    357
+                                ],
+                                "text": "NAMES",
+                                "confidence": 0.694
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            650,
+                            383,
+                            813,
+                            367,
+                            815,
+                            392,
+                            653,
+                            408
+                        ],
+                        "text": "PAWEL JAN",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    651,
+                                    384,
+                                    751,
+                                    374,
+                                    753,
+                                    399,
+                                    653,
+                                    409
+                                ],
+                                "text": "PAWEL",
+                                "confidence": 0.256
+                            },
+                            {
+                                "boundingBox": [
+                                    760,
+                                    373,
+                                    808,
+                                    368,
+                                    809,
+                                    394,
+                                    761,
+                                    399
+                                ],
+                                "text": "JAN",
+                                "confidence": 0.958
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            656,
+                            422,
+                            890,
+                            399,
+                            892,
+                            416,
+                            658,
+                            439
+                        ],
+                        "text": "OBYWATELSTWO / NATIONALITY",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    657,
+                                    424,
+                                    779,
+                                    411,
+                                    780,
+                                    427,
+                                    658,
+                                    439
+                                ],
+                                "text": "OBYWATELSTWO",
+                                "confidence": 0.909
+                            },
+                            {
+                                "boundingBox": [
+                                    783,
+                                    410,
+                                    790,
+                                    409,
+                                    791,
+                                    426,
+                                    784,
+                                    427
+                                ],
+                                "text": "/",
+                                "confidence": 0.891
+                            },
+                            {
+                                "boundingBox": [
+                                    793,
+                                    409,
+                                    890,
+                                    400,
+                                    892,
+                                    417,
+                                    794,
+                                    426
+                                ],
+                                "text": "NATIONALITY",
+                                "confidence": 0.95
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            926,
+                            395,
+                            1173,
+                            371,
+                            1175,
+                            387,
+                            927,
+                            412
+                        ],
+                        "text": "DATA URODZENIA / DATE OF BIRTH",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    927,
+                                    396,
+                                    964,
+                                    393,
+                                    966,
+                                    408,
+                                    929,
+                                    412
+                                ],
+                                "text": "DATA",
+                                "confidence": 0.958
+                            },
+                            {
+                                "boundingBox": [
+                                    967,
+                                    392,
+                                    1052,
+                                    384,
+                                    1054,
+                                    400,
+                                    969,
+                                    408
+                                ],
+                                "text": "URODZENIA",
+                                "confidence": 0.856
+                            },
+                            {
+                                "boundingBox": [
+                                    1055,
+                                    384,
+                                    1062,
+                                    383,
+                                    1064,
+                                    399,
+                                    1057,
+                                    400
+                                ],
+                                "text": "/",
+                                "confidence": 0.855
+                            },
+                            {
+                                "boundingBox": [
+                                    1066,
+                                    383,
+                                    1103,
+                                    379,
+                                    1105,
+                                    395,
+                                    1067,
+                                    399
+                                ],
+                                "text": "DATE",
+                                "confidence": 0.841
+                            },
+                            {
+                                "boundingBox": [
+                                    1106,
+                                    378,
+                                    1127,
+                                    376,
+                                    1129,
+                                    393,
+                                    1108,
+                                    395
+                                ],
+                                "text": "OF",
+                                "confidence": 0.945
+                            },
+                            {
+                                "boundingBox": [
+                                    1130,
+                                    376,
+                                    1171,
+                                    371,
+                                    1172,
+                                    388,
+                                    1132,
+                                    392
+                                ],
+                                "text": "BIRTH",
+                                "confidence": 0.846
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            659,
+                            447,
+                            748,
+                            438,
+                            751,
+                            461,
+                            660,
+                            471
+                        ],
+                        "text": "POLSKIE",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    659,
+                                    448,
+                                    748,
+                                    438,
+                                    749,
+                                    462,
+                                    661,
+                                    471
+                                ],
+                                "text": "POLSKIE",
+                                "confidence": 0.958
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            927,
+                            420,
+                            1043,
+                            410,
+                            1045,
+                            431,
+                            929,
+                            442
+                        ],
+                        "text": "04.02.1983",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    930,
+                                    421,
+                                    1043,
+                                    411,
+                                    1044,
+                                    432,
+                                    932,
+                                    442
+                                ],
+                                "text": "04.02.1983",
+                                "confidence": 0.935
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            660,
+                            482,
+                            894,
+                            459,
+                            896,
+                            475,
+                            661,
+                            498
+                        ],
+                        "text": "NUMER DOWODU OSOBISTEGO/",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    661,
+                                    483,
+                                    716,
+                                    477,
+                                    717,
+                                    493,
+                                    662,
+                                    498
+                                ],
+                                "text": "NUMER",
+                                "confidence": 0.958
+                            },
+                            {
+                                "boundingBox": [
+                                    719,
+                                    477,
+                                    791,
+                                    469,
+                                    792,
+                                    485,
+                                    720,
+                                    492
+                                ],
+                                "text": "DOWODU",
+                                "confidence": 0.845
+                            },
+                            {
+                                "boundingBox": [
+                                    795,
+                                    469,
+                                    894,
+                                    459,
+                                    895,
+                                    476,
+                                    796,
+                                    485
+                                ],
+                                "text": "OSOBISTEGO/",
+                                "confidence": 0.57
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            931,
+                            454,
+                            1009,
+                            447,
+                            1011,
+                            463,
+                            933,
+                            469
+                        ],
+                        "text": "PLEC / SEX",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    932,
+                                    454,
+                                    968,
+                                    451,
+                                    969,
+                                    467,
+                                    934,
+                                    470
+                                ],
+                                "text": "PLEC",
+                                "confidence": 0.633
+                            },
+                            {
+                                "boundingBox": [
+                                    971,
+                                    451,
+                                    978,
+                                    450,
+                                    979,
+                                    466,
+                                    972,
+                                    467
+                                ],
+                                "text": "/",
+                                "confidence": 0.842
+                            },
+                            {
+                                "boundingBox": [
+                                    981,
+                                    450,
+                                    1007,
+                                    448,
+                                    1009,
+                                    463,
+                                    982,
+                                    466
+                                ],
+                                "text": "SEX",
+                                "confidence": 0.908
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            662,
+                            501,
+                            844,
+                            482,
+                            846,
+                            498,
+                            663,
+                            516
+                        ],
+                        "text": "IDENTITY CARD NUMBER",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    662,
+                                    501,
+                                    731,
+                                    494,
+                                    732,
+                                    509,
+                                    664,
+                                    517
+                                ],
+                                "text": "IDENTITY",
+                                "confidence": 0.9
+                            },
+                            {
+                                "boundingBox": [
+                                    734,
+                                    494,
+                                    773,
+                                    490,
+                                    774,
+                                    505,
+                                    735,
+                                    509
+                                ],
+                                "text": "CARD",
+                                "confidence": 0.958
+                            },
+                            {
+                                "boundingBox": [
+                                    777,
+                                    490,
+                                    842,
+                                    483,
+                                    842,
+                                    499,
+                                    778,
+                                    505
+                                ],
+                                "text": "NUMBER",
+                                "confidence": 0.958
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            665,
+                            524,
+                            816,
+                            508,
+                            819,
+                            534,
+                            668,
+                            550
+                        ],
+                        "text": "ARG 691869",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    668,
+                                    525,
+                                    719,
+                                    521,
+                                    722,
+                                    544,
+                                    671,
+                                    550
+                                ],
+                                "text": "ARG",
+                                "confidence": 0.958
+                            },
+                            {
+                                "boundingBox": [
+                                    727,
+                                    520,
+                                    817,
+                                    509,
+                                    820,
+                                    535,
+                                    730,
+                                    543
+                                ],
+                                "text": "691869",
+                                "confidence": 0.945
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            933,
+                            487,
+                            956,
+                            483,
+                            959,
+                            506,
+                            937,
+                            510
+                        ],
+                        "text": "M",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    933,
+                                    487,
+                                    949,
+                                    484,
+                                    953,
+                                    507,
+                                    938,
+                                    510
+                                ],
+                                "text": "M",
+                                "confidence": 0.893
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            670,
+                            558,
+                            913,
+                            534,
+                            915,
+                            551,
+                            671,
+                            576
+                        ],
+                        "text": "TERMIN WAZNOSCI / EXPIRY DATE",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    671,
+                                    559,
+                                    726,
+                                    553,
+                                    728,
+                                    570,
+                                    672,
+                                    576
+                                ],
+                                "text": "TERMIN",
+                                "confidence": 0.958
+                            },
+                            {
+                                "boundingBox": [
+                                    729,
+                                    553,
+                                    809,
+                                    544,
+                                    811,
+                                    562,
+                                    731,
+                                    570
+                                ],
+                                "text": "WAZNOSCI",
+                                "confidence": 0.864
+                            },
+                            {
+                                "boundingBox": [
+                                    813,
+                                    544,
+                                    820,
+                                    543,
+                                    821,
+                                    561,
+                                    814,
+                                    562
+                                ],
+                                "text": "/",
+                                "confidence": 0.826
+                            },
+                            {
+                                "boundingBox": [
+                                    823,
+                                    543,
+                                    873,
+                                    538,
+                                    874,
+                                    556,
+                                    825,
+                                    561
+                                ],
+                                "text": "EXPIRY",
+                                "confidence": 0.958
+                            },
+                            {
+                                "boundingBox": [
+                                    876,
+                                    538,
+                                    914,
+                                    534,
+                                    915,
+                                    552,
+                                    878,
+                                    556
+                                ],
+                                "text": "DATE",
+                                "confidence": 0.951
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            671,
+                            586,
+                            784,
+                            576,
+                            787,
+                            597,
+                            673,
+                            608
+                        ],
+                        "text": "19.05.2029",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    672,
+                                    586,
+                                    785,
+                                    576,
+                                    787,
+                                    597,
+                                    674,
+                                    608
+                                ],
+                                "text": "19.05.2029",
+                                "confidence": 0.917
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            1071,
+                            554,
+                            1147,
+                            549,
+                            1149,
+                            587,
+                            1074,
+                            593
+                        ],
+                        "text": "2029",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1071,
+                                    554,
+                                    1145,
+                                    549,
+                                    1148,
+                                    587,
+                                    1074,
+                                    593
+                                ],
+                                "text": "2029",
+                                "confidence": 0.87
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            946,
+                            632,
+                            1047,
+                            622,
+                            1049,
+                            638,
+                            947,
+                            648
+                        ],
+                        "text": "NUMER CAN",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    949,
+                                    633,
+                                    1004,
+                                    627,
+                                    1005,
+                                    643,
+                                    950,
+                                    649
+                                ],
+                                "text": "NUMER",
+                                "confidence": 0.849
+                            },
+                            {
+                                "boundingBox": [
+                                    1007,
+                                    627,
+                                    1037,
+                                    624,
+                                    1038,
+                                    640,
+                                    1009,
+                                    643
+                                ],
+                                "text": "CAN",
+                                "confidence": 0.666
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            1010,
+                            644,
+                            1045,
+                            642,
+                            1047,
+                            655,
+                            1011,
+                            658
+                        ],
+                        "text": "CAN",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1012,
+                                    644,
+                                    1041,
+                                    642,
+                                    1042,
+                                    656,
+                                    1013,
+                                    658
+                                ],
+                                "text": "CAN",
+                                "confidence": 0.857
+                            }
+                        ]
+                    },
+                    {
+                        "language": "en",
+                        "boundingBox": [
+                            1059,
+                            615,
+                            1218,
+                            601,
+                            1221,
+                            637,
+                            1062,
+                            652
+                        ],
+                        "text": "012345",
+                        "words": [
+                            {
+                                "boundingBox": [
+                                    1060,
+                                    616,
+                                    1219,
+                                    601,
+                                    1220,
+                                    639,
+                                    1064,
+                                    652
+                                ],
+                                "text": "012345",
+                                "confidence": 0.958
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "pageResults": [
+            {
+                "page": 1,
+                "tables": []
+            }
+        ]
+    }
+}
