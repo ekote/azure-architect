@@ -4,7 +4,7 @@
 		"annotations": [],
 		"type": "HttpServer",
 		"typeProperties": {
-			"url": "https://github.com/ekote/azure-architect/blob/master/adf/total_cases.csv",
+			"url": "https://raw.githubusercontent.com/ekote/azure-architect/master/adf/total_cases.csv",
 			"enableServerCertificateValidation": true,
 			"authenticationType": "Anonymous"
 		}
