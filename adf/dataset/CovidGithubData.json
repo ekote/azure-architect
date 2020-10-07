@@ -1,0 +1,870 @@
+{
+	"name": "CovidGithubData",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CovidGithubDataset",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "date",
+				"type": "String"
+			},
+			{
+				"name": "World",
+				"type": "String"
+			},
+			{
+				"name": "Afghanistan",
+				"type": "String"
+			},
+			{
+				"name": "Albania",
+				"type": "String"
+			},
+			{
+				"name": "Algeria",
+				"type": "String"
+			},
+			{
+				"name": "Andorra",
+				"type": "String"
+			},
+			{
+				"name": "Angola",
+				"type": "String"
+			},
+			{
+				"name": "Anguilla",
+				"type": "String"
+			},
+			{
+				"name": "Antigua and Barbuda",
+				"type": "String"
+			},
+			{
+				"name": "Argentina",
+				"type": "String"
+			},
+			{
+				"name": "Armenia",
+				"type": "String"
+			},
+			{
+				"name": "Aruba",
+				"type": "String"
+			},
+			{
+				"name": "Australia",
+				"type": "String"
+			},
+			{
+				"name": "Austria",
+				"type": "String"
+			},
+			{
+				"name": "Azerbaijan",
+				"type": "String"
+			},
+			{
+				"name": "Bahamas",
+				"type": "String"
+			},
+			{
+				"name": "Bahrain",
+				"type": "String"
+			},
+			{
+				"name": "Bangladesh",
+				"type": "String"
+			},
+			{
+				"name": "Barbados",
+				"type": "String"
+			},
+			{
+				"name": "Belarus",
+				"type": "String"
+			},
+			{
+				"name": "Belgium",
+				"type": "String"
+			},
+			{
+				"name": "Belize",
+				"type": "String"
+			},
+			{
+				"name": "Benin",
+				"type": "String"
+			},
+			{
+				"name": "Bermuda",
+				"type": "String"
+			},
+			{
+				"name": "Bhutan",
+				"type": "String"
+			},
+			{
+				"name": "Bolivia",
+				"type": "String"
+			},
+			{
+				"name": "Bonaire Sint Eustatius and Saba",
+				"type": "String"
+			},
+			{
+				"name": "Bosnia and Herzegovina",
+				"type": "String"
+			},
+			{
+				"name": "Botswana",
+				"type": "String"
+			},
+			{
+				"name": "Brazil",
+				"type": "String"
+			},
+			{
+				"name": "British Virgin Islands",
+				"type": "String"
+			},
+			{
+				"name": "Brunei",
+				"type": "String"
+			},
+			{
+				"name": "Bulgaria",
+				"type": "String"
+			},
+			{
+				"name": "Burkina Faso",
+				"type": "String"
+			},
+			{
+				"name": "Burundi",
+				"type": "String"
+			},
+			{
+				"name": "Cambodia",
+				"type": "String"
+			},
+			{
+				"name": "Cameroon",
+				"type": "String"
+			},
+			{
+				"name": "Canada",
+				"type": "String"
+			},
+			{
+				"name": "Cape Verde",
+				"type": "String"
+			},
+			{
+				"name": "Cayman Islands",
+				"type": "String"
+			},
+			{
+				"name": "Central African Republic",
+				"type": "String"
+			},
+			{
+				"name": "Chad",
+				"type": "String"
+			},
+			{
+				"name": "Chile",
+				"type": "String"
+			},
+			{
+				"name": "China",
+				"type": "String"
+			},
+			{
+				"name": "Colombia",
+				"type": "String"
+			},
+			{
+				"name": "Comoros",
+				"type": "String"
+			},
+			{
+				"name": "Congo",
+				"type": "String"
+			},
+			{
+				"name": "Costa Rica",
+				"type": "String"
+			},
+			{
+				"name": "Cote d'Ivoire",
+				"type": "String"
+			},
+			{
+				"name": "Croatia",
+				"type": "String"
+			},
+			{
+				"name": "Cuba",
+				"type": "String"
+			},
+			{
+				"name": "Curacao",
+				"type": "String"
+			},
+			{
+				"name": "Cyprus",
+				"type": "String"
+			},
+			{
+				"name": "Czech Republic",
+				"type": "String"
+			},
+			{
+				"name": "Democratic Republic of Congo",
+				"type": "String"
+			},
+			{
+				"name": "Denmark",
+				"type": "String"
+			},
+			{
+				"name": "Djibouti",
+				"type": "String"
+			},
+			{
+				"name": "Dominica",
+				"type": "String"
+			},
+			{
+				"name": "Dominican Republic",
+				"type": "String"
+			},
+			{
+				"name": "Ecuador",
+				"type": "String"
+			},
+			{
+				"name": "Egypt",
+				"type": "String"
+			},
+			{
+				"name": "El Salvador",
+				"type": "String"
+			},
+			{
+				"name": "Equatorial Guinea",
+				"type": "String"
+			},
+			{
+				"name": "Eritrea",
+				"type": "String"
+			},
+			{
+				"name": "Estonia",
+				"type": "String"
+			},
+			{
+				"name": "Ethiopia",
+				"type": "String"
+			},
+			{
+				"name": "Faeroe Islands",
+				"type": "String"
+			},
+			{
+				"name": "Falkland Islands",
+				"type": "String"
+			},
+			{
+				"name": "Fiji",
+				"type": "String"
+			},
+			{
+				"name": "Finland",
+				"type": "String"
+			},
+			{
+				"name": "France",
+				"type": "String"
+			},
+			{
+				"name": "French Polynesia",
+				"type": "String"
+			},
+			{
+				"name": "Gabon",
+				"type": "String"
+			},
+			{
+				"name": "Gambia",
+				"type": "String"
+			},
+			{
+				"name": "Georgia",
+				"type": "String"
+			},
+			{
+				"name": "Germany",
+				"type": "String"
+			},
+			{
+				"name": "Ghana",
+				"type": "String"
+			},
+			{
+				"name": "Gibraltar",
+				"type": "String"
+			},
+			{
+				"name": "Greece",
+				"type": "String"
+			},
+			{
+				"name": "Greenland",
+				"type": "String"
+			},
+			{
+				"name": "Grenada",
+				"type": "String"
+			},
+			{
+				"name": "Guam",
+				"type": "String"
+			},
+			{
+				"name": "Guatemala",
+				"type": "String"
+			},
+			{
+				"name": "Guernsey",
+				"type": "String"
+			},
+			{
+				"name": "Guinea",
+				"type": "String"
+			},
+			{
+				"name": "Guinea-Bissau",
+				"type": "String"
+			},
+			{
+				"name": "Guyana",
+				"type": "String"
+			},
+			{
+				"name": "Haiti",
+				"type": "String"
+			},
+			{
+				"name": "Honduras",
+				"type": "String"
+			},
+			{
+				"name": "Hungary",
+				"type": "String"
+			},
+			{
+				"name": "Iceland",
+				"type": "String"
+			},
+			{
+				"name": "India",
+				"type": "String"
+			},
+			{
+				"name": "Indonesia",
+				"type": "String"
+			},
+			{
+				"name": "International",
+				"type": "String"
+			},
+			{
+				"name": "Iran",
+				"type": "String"
+			},
+			{
+				"name": "Iraq",
+				"type": "String"
+			},
+			{
+				"name": "Ireland",
+				"type": "String"
+			},
+			{
+				"name": "Isle of Man",
+				"type": "String"
+			},
+			{
+				"name": "Israel",
+				"type": "String"
+			},
+			{
+				"name": "Italy",
+				"type": "String"
+			},
+			{
+				"name": "Jamaica",
+				"type": "String"
+			},
+			{
+				"name": "Japan",
+				"type": "String"
+			},
+			{
+				"name": "Jersey",
+				"type": "String"
+			},
+			{
+				"name": "Jordan",
+				"type": "String"
+			},
+			{
+				"name": "Kazakhstan",
+				"type": "String"
+			},
+			{
+				"name": "Kenya",
+				"type": "String"
+			},
+			{
+				"name": "Kosovo",
+				"type": "String"
+			},
+			{
+				"name": "Kuwait",
+				"type": "String"
+			},
+			{
+				"name": "Kyrgyzstan",
+				"type": "String"
+			},
+			{
+				"name": "Laos",
+				"type": "String"
+			},
+			{
+				"name": "Latvia",
+				"type": "String"
+			},
+			{
+				"name": "Lebanon",
+				"type": "String"
+			},
+			{
+				"name": "Lesotho",
+				"type": "String"
+			},
+			{
+				"name": "Liberia",
+				"type": "String"
+			},
+			{
+				"name": "Libya",
+				"type": "String"
+			},
+			{
+				"name": "Liechtenstein",
+				"type": "String"
+			},
+			{
+				"name": "Lithuania",
+				"type": "String"
+			},
+			{
+				"name": "Luxembourg",
+				"type": "String"
+			},
+			{
+				"name": "Macedonia",
+				"type": "String"
+			},
+			{
+				"name": "Madagascar",
+				"type": "String"
+			},
+			{
+				"name": "Malawi",
+				"type": "String"
+			},
+			{
+				"name": "Malaysia",
+				"type": "String"
+			},
+			{
+				"name": "Maldives",
+				"type": "String"
+			},
+			{
+				"name": "Mali",
+				"type": "String"
+			},
+			{
+				"name": "Malta",
+				"type": "String"
+			},
+			{
+				"name": "Mauritania",
+				"type": "String"
+			},
+			{
+				"name": "Mauritius",
+				"type": "String"
+			},
+			{
+				"name": "Mexico",
+				"type": "String"
+			},
+			{
+				"name": "Moldova",
+				"type": "String"
+			},
+			{
+				"name": "Monaco",
+				"type": "String"
+			},
+			{
+				"name": "Mongolia",
+				"type": "String"
+			},
+			{
+				"name": "Montenegro",
+				"type": "String"
+			},
+			{
+				"name": "Montserrat",
+				"type": "String"
+			},
+			{
+				"name": "Morocco",
+				"type": "String"
+			},
+			{
+				"name": "Mozambique",
+				"type": "String"
+			},
+			{
+				"name": "Myanmar",
+				"type": "String"
+			},
+			{
+				"name": "Namibia",
+				"type": "String"
+			},
+			{
+				"name": "Nepal",
+				"type": "String"
+			},
+			{
+				"name": "Netherlands",
+				"type": "String"
+			},
+			{
+				"name": "New Caledonia",
+				"type": "String"
+			},
+			{
+				"name": "New Zealand",
+				"type": "String"
+			},
+			{
+				"name": "Nicaragua",
+				"type": "String"
+			},
+			{
+				"name": "Niger",
+				"type": "String"
+			},
+			{
+				"name": "Nigeria",
+				"type": "String"
+			},
+			{
+				"name": "Northern Mariana Islands",
+				"type": "String"
+			},
+			{
+				"name": "Norway",
+				"type": "String"
+			},
+			{
+				"name": "Oman",
+				"type": "String"
+			},
+			{
+				"name": "Pakistan",
+				"type": "String"
+			},
+			{
+				"name": "Palestine",
+				"type": "String"
+			},
+			{
+				"name": "Panama",
+				"type": "String"
+			},
+			{
+				"name": "Papua New Guinea",
+				"type": "String"
+			},
+			{
+				"name": "Paraguay",
+				"type": "String"
+			},
+			{
+				"name": "Peru",
+				"type": "String"
+			},
+			{
+				"name": "Philippines",
+				"type": "String"
+			},
+			{
+				"name": "Poland",
+				"type": "String"
+			},
+			{
+				"name": "Portugal",
+				"type": "String"
+			},
+			{
+				"name": "Puerto Rico",
+				"type": "String"
+			},
+			{
+				"name": "Qatar",
+				"type": "String"
+			},
+			{
+				"name": "Romania",
+				"type": "String"
+			},
+			{
+				"name": "Russia",
+				"type": "String"
+			},
+			{
+				"name": "Rwanda",
+				"type": "String"
+			},
+			{
+				"name": "Saint Kitts and Nevis",
+				"type": "String"
+			},
+			{
+				"name": "Saint Lucia",
+				"type": "String"
+			},
+			{
+				"name": "Saint Vincent and the Grenadines",
+				"type": "String"
+			},
+			{
+				"name": "San Marino",
+				"type": "String"
+			},
+			{
+				"name": "Sao Tome and Principe",
+				"type": "String"
+			},
+			{
+				"name": "Saudi Arabia",
+				"type": "String"
+			},
+			{
+				"name": "Senegal",
+				"type": "String"
+			},
+			{
+				"name": "Serbia",
+				"type": "String"
+			},
+			{
+				"name": "Seychelles",
+				"type": "String"
+			},
+			{
+				"name": "Sierra Leone",
+				"type": "String"
+			},
+			{
+				"name": "Singapore",
+				"type": "String"
+			},
+			{
+				"name": "Sint Maarten (Dutch part)",
+				"type": "String"
+			},
+			{
+				"name": "Slovakia",
+				"type": "String"
+			},
+			{
+				"name": "Slovenia",
+				"type": "String"
+			},
+			{
+				"name": "Somalia",
+				"type": "String"
+			},
+			{
+				"name": "South Africa",
+				"type": "String"
+			},
+			{
+				"name": "South Korea",
+				"type": "String"
+			},
+			{
+				"name": "South Sudan",
+				"type": "String"
+			},
+			{
+				"name": "Spain",
+				"type": "String"
+			},
+			{
+				"name": "Sri Lanka",
+				"type": "String"
+			},
+			{
+				"name": "Sudan",
+				"type": "String"
+			},
+			{
+				"name": "Suriname",
+				"type": "String"
+			},
+			{
+				"name": "Swaziland",
+				"type": "String"
+			},
+			{
+				"name": "Sweden",
+				"type": "String"
+			},
+			{
+				"name": "Switzerland",
+				"type": "String"
+			},
+			{
+				"name": "Syria",
+				"type": "String"
+			},
+			{
+				"name": "Taiwan",
+				"type": "String"
+			},
+			{
+				"name": "Tajikistan",
+				"type": "String"
+			},
+			{
+				"name": "Tanzania",
+				"type": "String"
+			},
+			{
+				"name": "Thailand",
+				"type": "String"
+			},
+			{
+				"name": "Timor",
+				"type": "String"
+			},
+			{
+				"name": "Togo",
+				"type": "String"
+			},
+			{
+				"name": "Trinidad and Tobago",
+				"type": "String"
+			},
+			{
+				"name": "Tunisia",
+				"type": "String"
+			},
+			{
+				"name": "Turkey",
+				"type": "String"
+			},
+			{
+				"name": "Turks and Caicos Islands",
+				"type": "String"
+			},
+			{
+				"name": "Uganda",
+				"type": "String"
+			},
+			{
+				"name": "Ukraine",
+				"type": "String"
+			},
+			{
+				"name": "United Arab Emirates",
+				"type": "String"
+			},
+			{
+				"name": "United Kingdom",
+				"type": "String"
+			},
+			{
+				"name": "United States",
+				"type": "String"
+			},
+			{
+				"name": "United States Virgin Islands",
+				"type": "String"
+			},
+			{
+				"name": "Uruguay",
+				"type": "String"
+			},
+			{
+				"name": "Uzbekistan",
+				"type": "String"
+			},
+			{
+				"name": "Vatican",
+				"type": "String"
+			},
+			{
+				"name": "Venezuela",
+				"type": "String"
+			},
+			{
+				"name": "Vietnam",
+				"type": "String"
+			},
+			{
+				"name": "Western Sahara",
+				"type": "String"
+			},
+			{
+				"name": "Yemen",
+				"type": "String"
+			},
+			{
+				"name": "Zambia",
+				"type": "String"
+			},
+			{
+				"name": "Zimbabwe",
+				"type": "String"
+			}
+		]
+	}
+}

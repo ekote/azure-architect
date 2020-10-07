@@ -1,0 +1,2641 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Copy data1",
+				"type": "Copy",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"source": {
+						"type": "DelimitedTextSource",
+						"storeSettings": {
+							"type": "HttpReadSettings",
+							"requestMethod": "GET"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextReadSettings"
+						}
+					},
+					"sink": {
+						"type": "DelimitedTextSink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						},
+						"formatSettings": {
+							"type": "DelimitedTextWriteSettings",
+							"quoteAllText": true,
+							"fileExtension": ".csv"
+						}
+					},
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "date",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "date",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "World",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "World",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Afghanistan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Afghanistan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Albania",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Albania",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Algeria",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Algeria",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Andorra",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Andorra",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Angola",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Angola",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Anguilla",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Anguilla",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Antigua and Barbuda",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Antigua and Barbuda",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Argentina",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Argentina",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Armenia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Armenia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Aruba",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Aruba",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Australia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Australia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Austria",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Austria",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Azerbaijan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Azerbaijan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Bahamas",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Bahamas",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Bahrain",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Bahrain",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Bangladesh",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Bangladesh",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Barbados",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Barbados",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Belarus",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Belarus",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Belgium",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Belgium",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Belize",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Belize",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Benin",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Benin",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Bermuda",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Bermuda",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Bhutan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Bhutan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Bolivia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Bolivia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Bonaire Sint Eustatius and Saba",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Bonaire Sint Eustatius and Saba",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Bosnia and Herzegovina",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Bosnia and Herzegovina",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Botswana",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Botswana",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Brazil",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Brazil",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "British Virgin Islands",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "British Virgin Islands",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Brunei",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Brunei",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Bulgaria",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Bulgaria",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Burkina Faso",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Burkina Faso",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Burundi",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Burundi",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Cambodia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Cambodia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Cameroon",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Cameroon",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Canada",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Canada",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Cape Verde",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Cape Verde",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Cayman Islands",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Cayman Islands",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Central African Republic",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Central African Republic",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Chad",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Chad",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Chile",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Chile",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "China",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "China",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Colombia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Colombia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Comoros",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Comoros",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Congo",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Congo",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Costa Rica",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Costa Rica",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Cote d'Ivoire",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Cote d'Ivoire",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Croatia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Croatia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Cuba",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Cuba",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Curacao",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Curacao",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Cyprus",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Cyprus",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Czech Republic",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Czech Republic",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Democratic Republic of Congo",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Democratic Republic of Congo",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Denmark",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Denmark",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Djibouti",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Djibouti",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Dominica",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Dominica",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Dominican Republic",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Dominican Republic",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Ecuador",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Ecuador",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Egypt",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Egypt",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "El Salvador",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "El Salvador",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Equatorial Guinea",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Equatorial Guinea",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Eritrea",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Eritrea",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Estonia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Estonia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Ethiopia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Ethiopia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Faeroe Islands",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Faeroe Islands",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Falkland Islands",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Falkland Islands",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Fiji",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Fiji",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Finland",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Finland",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "France",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "France",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "French Polynesia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "French Polynesia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Gabon",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Gabon",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Gambia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Gambia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Georgia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Georgia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Germany",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Germany",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Ghana",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Ghana",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Gibraltar",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Gibraltar",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Greece",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Greece",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Greenland",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Greenland",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Grenada",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Grenada",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Guam",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Guam",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Guatemala",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Guatemala",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Guernsey",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Guernsey",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Guinea",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Guinea",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Guinea-Bissau",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Guinea-Bissau",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Guyana",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Guyana",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Haiti",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Haiti",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Honduras",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Honduras",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Hungary",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Hungary",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Iceland",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Iceland",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "India",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "India",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Indonesia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Indonesia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "International",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "International",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Iran",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Iran",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Iraq",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Iraq",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Ireland",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Ireland",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Isle of Man",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Isle of Man",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Israel",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Israel",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Italy",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Italy",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Jamaica",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Jamaica",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Japan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Japan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Jersey",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Jersey",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Jordan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Jordan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Kazakhstan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Kazakhstan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Kenya",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Kenya",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Kosovo",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Kosovo",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Kuwait",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Kuwait",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Kyrgyzstan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Kyrgyzstan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Laos",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Laos",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Latvia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Latvia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Lebanon",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Lebanon",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Lesotho",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Lesotho",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Liberia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Liberia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Libya",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Libya",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Liechtenstein",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Liechtenstein",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Lithuania",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Lithuania",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Luxembourg",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Luxembourg",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Macedonia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Macedonia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Madagascar",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Madagascar",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Malawi",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Malawi",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Malaysia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Malaysia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Maldives",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Maldives",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Mali",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Mali",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Malta",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Malta",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Mauritania",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Mauritania",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Mauritius",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Mauritius",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Mexico",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Mexico",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Moldova",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Moldova",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Monaco",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Monaco",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Mongolia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Mongolia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Montenegro",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Montenegro",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Montserrat",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Montserrat",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Morocco",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Morocco",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Mozambique",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Mozambique",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Myanmar",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Myanmar",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Namibia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Namibia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Nepal",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Nepal",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Netherlands",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Netherlands",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "New Caledonia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "New Caledonia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "New Zealand",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "New Zealand",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Nicaragua",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Nicaragua",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Niger",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Niger",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Nigeria",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Nigeria",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Northern Mariana Islands",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Northern Mariana Islands",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Norway",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Norway",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Oman",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Oman",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Pakistan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Pakistan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Palestine",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Palestine",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Panama",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Panama",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Papua New Guinea",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Papua New Guinea",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Paraguay",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Paraguay",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Peru",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Peru",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Philippines",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Philippines",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Poland",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Poland",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Portugal",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Portugal",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Puerto Rico",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Puerto Rico",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Qatar",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Qatar",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Romania",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Romania",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Russia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Russia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Rwanda",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Rwanda",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Saint Kitts and Nevis",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Saint Kitts and Nevis",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Saint Lucia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Saint Lucia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Saint Vincent and the Grenadines",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Saint Vincent and the Grenadines",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "San Marino",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "San Marino",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Sao Tome and Principe",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Sao Tome and Principe",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Saudi Arabia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Saudi Arabia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Senegal",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Senegal",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Serbia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Serbia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Seychelles",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Seychelles",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Sierra Leone",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Sierra Leone",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Singapore",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Singapore",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Sint Maarten (Dutch part)",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Sint Maarten (Dutch part)",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Slovakia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Slovakia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Slovenia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Slovenia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Somalia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Somalia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "South Africa",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "South Africa",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "South Korea",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "South Korea",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "South Sudan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "South Sudan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Spain",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Spain",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Sri Lanka",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Sri Lanka",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Sudan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Sudan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Suriname",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Suriname",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Swaziland",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Swaziland",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Sweden",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Sweden",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Switzerland",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Switzerland",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Syria",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Syria",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Taiwan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Taiwan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Tajikistan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Tajikistan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Tanzania",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Tanzania",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Thailand",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Thailand",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Timor",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Timor",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Togo",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Togo",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Trinidad and Tobago",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Trinidad and Tobago",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Tunisia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Tunisia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Turkey",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Turkey",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Turks and Caicos Islands",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Turks and Caicos Islands",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Uganda",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Uganda",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Ukraine",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Ukraine",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "United Arab Emirates",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "United Arab Emirates",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "United Kingdom",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "United Kingdom",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "United States",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "United States",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "United States Virgin Islands",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "United States Virgin Islands",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Uruguay",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Uruguay",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Uzbekistan",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Uzbekistan",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Vatican",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Vatican",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Venezuela",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Venezuela",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Vietnam",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Vietnam",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Western Sahara",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Western Sahara",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Yemen",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Yemen",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Zambia",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Zambia",
+									"type": "String",
+									"physicalType": "String"
+								}
+							},
+							{
+								"source": {
+									"name": "Zimbabwe",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Zimbabwe",
+									"type": "String",
+									"physicalType": "String"
+								}
+							}
+						],
+						"typeConversion": true,
+						"typeConversionSettings": {
+							"allowDataTruncation": true,
+							"treatBooleanAsNumber": false
+						}
+					}
+				},
+				"inputs": [
+					{
+						"referenceName": "CovidGithubData",
+						"type": "DatasetReference"
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "Adf_ADSL",
+						"type": "DatasetReference"
+					}
+				]
+			},
+			{
+				"name": "dataflow1",
+				"type": "ExecuteDataFlow",
+				"dependsOn": [
+					{
+						"activity": "Copy data1",
+						"dependencyConditions": [
+							"Succeeded"
+						]
+					}
+				],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"dataflow": {
+						"referenceName": "dataflow1",
+						"type": "DataFlowReference"
+					},
+					"compute": {
+						"coreCount": 8,
+						"computeType": "General"
+					}
+				}
+			}
+		],
+		"annotations": []
+	}
+}
