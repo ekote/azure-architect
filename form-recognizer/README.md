@@ -114,7 +114,8 @@ Steps:
    1. depends on your needs - there are just a couple of pre-built models. Moreover, see the differences in pricing.
 2. What is the alternative tool? 
    1. Cognitive Services -> Computer Vision ->  OCR
-
+3. Can I run form recognizer as an Azure Function? 
+   1. Sure, link here: https://github.com/tayganr/form-recognizer
 
 
 ## Links
