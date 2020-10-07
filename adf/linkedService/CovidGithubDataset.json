@@ -1,0 +1,12 @@
+{
+	"name": "CovidGithubDataset",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://github.com/ekote/azure-architect/blob/master/adf/total_cases.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
