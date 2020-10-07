@@ -1,0 +1,37 @@
+{
+	"name": "SQLdb",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqldbazure",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "dayOfWeek",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "sumAll",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "sumPL",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "sumIT",
+				"type": "bigint",
+				"precision": 19
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "CovidAnalytics"
+		}
+	}
+}

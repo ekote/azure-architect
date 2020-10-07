@@ -1,0 +1,23 @@
+{
+	"name": "Adf_ADSL",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage_adf",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "covid.csv",
+				"fileSystem": "covid"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}

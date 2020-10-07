@@ -1,0 +1,44 @@
+{
+	"name": "dataflow1",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "Adf_ADSL",
+						"type": "DatasetReference"
+					},
+					"name": "CovidADLS"
+				}
+			],
+			"sinks": [
+				{
+					"dataset": {
+						"referenceName": "SQLdb",
+						"type": "DatasetReference"
+					},
+					"name": "SinkToSQLDb"
+				}
+			],
+			"transformations": [
+				{
+					"name": "SelectAndRename"
+				},
+				{
+					"name": "OnlyAugust"
+				},
+				{
+					"name": "DerivedColumn1"
+				},
+				{
+					"name": "Aggregate1"
+				},
+				{
+					"name": "UpsertIfTrue"
+				}
+			],
+			"script": "source(output(\n\t\tdate as date,\n\t\tWorld as integer,\n\t\tAfghanistan as integer,\n\t\tAlbania as short,\n\t\tAlgeria as integer,\n\t\tAndorra as short,\n\t\tAngola as short,\n\t\tAnguilla as short,\n\t\t{Antigua and Barbuda} as short,\n\t\tArgentina as integer,\n\t\tArmenia as integer,\n\t\tAruba as short,\n\t\tAustralia as short,\n\t\tAustria as integer,\n\t\tAzerbaijan as integer,\n\t\tBahamas as short,\n\t\tBahrain as integer,\n\t\tBangladesh as integer,\n\t\tBarbados as short,\n\t\tBelarus as integer,\n\t\tBelgium as integer,\n\t\tBelize as short,\n\t\tBenin as short,\n\t\tBermuda as short,\n\t\tBhutan as short,\n\t\tBolivia as integer,\n\t\t{Bonaire Sint Eustatius and Saba} as short,\n\t\t{Bosnia and Herzegovina} as short,\n\t\tBotswana as short,\n\t\tBrazil as integer,\n\t\t{British Virgin Islands} as short,\n\t\tBrunei as short,\n\t\tBulgaria as short,\n\t\t{Burkina Faso} as short,\n\t\tBurundi as short,\n\t\tCambodia as short,\n\t\tCameroon as short,\n\t\tCanada as integer,\n\t\t{Cape Verde} as short,\n\t\t{Cayman Islands} as short,\n\t\t{Central African Republic} as short,\n\t\tChad as short,\n\t\tChile as integer,\n\t\tChina as integer,\n\t\tColombia as integer,\n\t\tComoros as short,\n\t\tCongo as short,\n\t\t{Costa Rica} as integer,\n\t\t{Cote d'Ivoire} as short,\n\t\tCroatia as short,\n\t\tCuba as short,\n\t\tCuracao as short,\n\t\tCyprus as short,\n\t\t{Czech Republic} as integer,\n\t\t{Democratic Republic of Congo} as short,\n\t\tDenmark as short,\n\t\tDjibouti as short,\n\t\tDominica as short,\n\t\t{Dominican Republic} as integer,\n\t\tEcuador as integer,\n\t\tEgypt as integer,\n\t\t{El Salvador} as short,\n\t\t{Equatorial Guinea} as short,\n\t\tEritrea as short,\n\t\tEstonia as short,\n\t\tEthiopia as integer,\n\t\t{Faeroe Islands} as short,\n\t\t{Falkland Islands} as short,\n\t\tFiji as short,\n\t\tFinland as short,\n\t\tFrance as integer,\n\t\t{French Polynesia} as short,\n\t\tGabon as short,\n\t\tGambia as short,\n\t\tGeorgia as short,\n\t\tGermany as integer,\n\t\tGhana as integer,\n\t\tGibraltar as short,\n\t\tGreece as short,\n\t\tGreenland as short,\n\t\tGrenada as short,\n\t\tGuam as short,\n\t\tGuatemala as integer,\n\t\tGuernsey as short,\n\t\tGuinea as short,\n\t\t{Guinea-Bissau} as short,\n\t\tGuyana as short,\n\t\tHaiti as short,\n\t\tHonduras as integer,\n\t\tHungary as short,\n\t\tIceland as short,\n\t\tIndia as integer,\n\t\tIndonesia as integer,\n\t\tInternational as short,\n\t\tIran as integer,\n\t\tIraq as integer,\n\t\tIreland as integer,\n\t\t{Isle of Man} as short,\n\t\tIsrael as integer,\n\t\tItaly as integer,\n\t\tJamaica as short,\n\t\tJapan as integer,\n\t\tJersey as short,\n\t\tJordan as short,\n\t\tKazakhstan as integer,\n\t\tKenya as integer,\n\t\tKosovo as short,\n\t\tKuwait as integer,\n\t\tKyrgyzstan as integer,\n\t\tLaos as short,\n\t\tLatvia as short,\n\t\tLebanon as integer,\n\t\tLesotho as short,\n\t\tLiberia as short,\n\t\tLibya as integer,\n\t\tLiechtenstein as short,\n\t\tLithuania as short,\n\t\tLuxembourg as short,\n\t\tMacedonia as short,\n\t\tMadagascar as short,\n\t\tMalawi as short,\n\t\tMalaysia as short,\n\t\tMaldives as short,\n\t\tMali as short,\n\t\tMalta as short,\n\t\tMauritania as short,\n\t\tMauritius as short,\n\t\tMexico as integer,\n\t\tMoldova as integer,\n\t\tMonaco as short,\n\t\tMongolia as short,\n\t\tMontenegro as short,\n\t\tMontserrat as short,\n\t\tMorocco as integer,\n\t\tMozambique as short,\n\t\tMyanmar as short,\n\t\tNamibia as short,\n\t\tNepal as integer,\n\t\tNetherlands as integer,\n\t\t{New Caledonia} as short,\n\t\t{New Zealand} as short,\n\t\tNicaragua as short,\n\t\tNiger as short,\n\t\tNigeria as integer,\n\t\t{Northern Mariana Islands} as short,\n\t\tNorway as short,\n\t\tOman as integer,\n\t\tPakistan as integer,\n\t\tPalestine as integer,\n\t\tPanama as integer,\n\t\t{Papua New Guinea} as short,\n\t\tParaguay as integer,\n\t\tPeru as integer,\n\t\tPhilippines as integer,\n\t\tPoland as integer,\n\t\tPortugal as integer,\n\t\t{Puerto Rico} as integer,\n\t\tQatar as integer,\n\t\tRomania as integer,\n\t\tRussia as integer,\n\t\tRwanda as short,\n\t\t{Saint Kitts and Nevis} as short,\n\t\t{Saint Lucia} as short,\n\t\t{Saint Vincent and the Grenadines} as short,\n\t\t{San Marino} as short,\n\t\t{Sao Tome and Principe} as short,\n\t\t{Saudi Arabia} as integer,\n\t\tSenegal as short,\n\t\tSerbia as integer,\n\t\tSeychelles as short,\n\t\t{Sierra Leone} as short,\n\t\tSingapore as integer,\n\t\t{Sint Maarten (Dutch part)} as short,\n\t\tSlovakia as short,\n\t\tSlovenia as short,\n\t\tSomalia as short,\n\t\t{South Africa} as integer,\n\t\t{South Korea} as short,\n\t\t{South Sudan} as short,\n\t\tSpain as integer,\n\t\t{Sri Lanka} as short,\n\t\tSudan as short,\n\t\tSuriname as short,\n\t\tSwaziland as short,\n\t\tSweden as integer,\n\t\tSwitzerland as integer,\n\t\tSyria as short,\n\t\tTaiwan as short,\n\t\tTajikistan as short,\n\t\tTanzania as short,\n\t\tThailand as short,\n\t\tTimor as short,\n\t\tTogo as short,\n\t\t{Trinidad and Tobago} as short,\n\t\tTunisia as short,\n\t\tTurkey as integer,\n\t\t{Turks and Caicos Islands} as short,\n\t\tUganda as short,\n\t\tUkraine as integer,\n\t\t{United Arab Emirates} as integer,\n\t\t{United Kingdom} as integer,\n\t\t{United States} as integer,\n\t\t{United States Virgin Islands} as short,\n\t\tUruguay as short,\n\t\tUzbekistan as integer,\n\t\tVatican as short,\n\t\tVenezuela as integer,\n\t\tVietnam as short,\n\t\t{Western Sahara} as short,\n\t\tYemen as short,\n\t\tZambia as short,\n\t\tZimbabwe as short\n\t),\n\tallowSchemaDrift: true,\n\tvalidateSchema: false,\n\tignoreNoFilesFound: false) ~> CovidADLS\nCovidADLS select(mapColumn(\n\t\tdate,\n\t\tall = World,\n\t\tpoland = Poland,\n\t\titaly = Italy\n\t),\n\tskipDuplicateMapInputs: true,\n\tskipDuplicateMapOutputs: true) ~> SelectAndRename\nSelectAndRename filter(date > toDate('2020-08-01') && date <= toDate('2020-08-31')) ~> OnlyAugust\nOnlyAugust derive(dayOfWeek = dayOfWeek(date) ) ~> DerivedColumn1\nDerivedColumn1 aggregate(groupBy(dayOfWeek),\n\tsumAll = sum(all),\n\t\tsumPL = sum(poland),\n\t\tsumIT = sum(italy)) ~> Aggregate1\nAggregate1 alterRow(upsertIf(true())) ~> UpsertIfTrue\nUpsertIfTrue sink(input(\n\t\tdayOfWeek as integer,\n\t\tsumAll as long,\n\t\tsumPL as long,\n\t\tsumIT as long\n\t),\n\tallowSchemaDrift: false,\n\tvalidateSchema: false,\n\tdeletable:false,\n\tinsertable:false,\n\tupdateable:false,\n\tupsertable:true,\n\tkeys:['dayOfWeek','sumPL'],\n\tformat: 'table') ~> SinkToSQLDb"
+		}
+	}
+}
