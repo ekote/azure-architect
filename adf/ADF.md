@@ -2,7 +2,7 @@
 
 
 
-![image-20201007231158920](C:\Users\eskot\AppData\Roaming\Typora\typora-user-images\image-20201007231158920.png)
+![image-20201007231158920](https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/image-20201007231158920.png)
 
 
 
@@ -16,7 +16,7 @@
 
 
 
-![image-20201007184553006](C:\Users\eskot\AppData\Roaming\Typora\typora-user-images\image-20201007184553006.png)
+![image-20201007184553006](https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/image-20201007184553006.png)
 
 
 
@@ -24,17 +24,17 @@
 
 
 
-![image-20201007184939744](C:\Users\eskot\AppData\Roaming\Typora\typora-user-images\image-20201007184939744.png)
+![image-20201007184939744](https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/image-20201007184939744.png)
 
 
 
 - networking 
 
-![image-20201007184949954](C:\Users\eskot\AppData\Roaming\Typora\typora-user-images\image-20201007184949954.png)
+![image-20201007184949954](https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/image-20201007184949954.png)
 
 - Once your data factory is deployed, go to the resource and click on **Authoring and Monitoring** to open the ADF or via adf.azure.com.
 
-![image-20201007185011884](C:\Users\eskot\AppData\Roaming\Typora\typora-user-images\image-20201007185011884.png)
+![image-20201007185011884](https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/image-20201007185011884.png)
 
 ## 
 
@@ -50,7 +50,7 @@
 
 ## ADF components
 
-![image-20201007231440328](C:\Users\eskot\AppData\Roaming\Typora\typora-user-images\image-20201007231440328.png)
+![image-20201007231440328](https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/image-20201007231440328.png)
 
 
 
@@ -64,7 +64,7 @@
 
 ## Integration runtime
 
-![image-20201007233939693](C:\Users\eskot\AppData\Roaming\Typora\typora-user-images\image-20201007233939693.png)
+![image-20201007233939693](https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/image-20201007233939693.png)
 
 ### Azure IR
 
@@ -151,7 +151,7 @@
 ## Pipelines
 
 - Save pipelines as [templates](https://azure.microsoft.com/en-us/blog/get-started-quickly-using-templates-in-azure-data-factory/) - GIT integration (Azure DevOps or GitHub required) 
-  - ![image-20201007232844897](C:\Users\eskot\AppData\Roaming\Typora\typora-user-images\image-20201007232844897.png)
+  - ![image-20201007232844897](https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/image-20201007232844897.png)
 
 
 
