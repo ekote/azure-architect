@@ -42,7 +42,7 @@
 
 ## Copy public data to ADLS
 
-<video src="C:\Users\eskot\Videos\Logitech\LogiCapture\1.mp4"></video>
+<video src="https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/1.mp4"></video>
 
 
 
@@ -138,11 +138,11 @@
 
 ## Transform dataset and save result in Azure SQL DB 
 
-<video src="C:\demo.mp4"></video>
+<video src="https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/demo.mp4"></video>
 
 
 
-![2020-10-07_21h12_51](C:\Users\eskot\OneDrive - Microsoft\Pictures\Screenpresso\2020-10-07_21h12_51.png)
+![2020-10-07_21h12_51](https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/2020-10-07_21h12_51.png)
 
 
 
