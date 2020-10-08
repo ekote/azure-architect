@@ -42,9 +42,7 @@
 
 ## Copy public data to ADLS
 
-<video src="https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/1.mp4"></video>
-
-
+[![](http://img.youtube.com/vi/mSlTKE7Cfp4/0.jpg)](http://www.youtube.com/watch?v=mSlTKE7Cfp4 "")
 
 
 
@@ -103,7 +101,6 @@
 ![własne kanały środowiska Integration Runtime](https://docs.microsoft.com/pl-pl/azure/data-factory/media/data-movement-security-considerations/data-management-gateway-channels.png)
 
 
-
 ### Azure-SSIS IR
 
 - To lift and shift existing SSIS workload, you can create an Azure-SSIS IR to natively execute SSIS packages.
@@ -138,8 +135,7 @@
 
 ## Transform dataset and save result in Azure SQL DB 
 
-<video src="https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/demo.mp4"></video>
-
+[![](http://img.youtube.com/vi/sp32IaQtlzU/0.jpg)](http://www.youtube.com/watch?v=sp32IaQtlzU "")
 
 
 ![2020-10-07_21h12_51](https://raw.githubusercontent.com/ekote/azure-architect/master/adf/assets/2020-10-07_21h12_51.png)
