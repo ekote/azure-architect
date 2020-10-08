@@ -1,6 +1,6 @@
 # Objective
 
-The repo contains POCs, MVPs, demos, custom scenarios these are used by me in my daily work. 
+The repo contains Notes, POCs, MVPs, demos, custom scenarios these are used by me in my daily work. 
 
 
 
