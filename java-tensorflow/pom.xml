@@ -1,22 +1,26 @@
 <project>
-	    <modelVersion>4.0.0</modelVersion>
-	        <groupId>org.myorg</groupId>
-		    <artifactId>hellotensorflow</artifactId>
-		        <version>1.0-SNAPSHOT</version>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.myorg</groupId>
+    <artifactId>hellotensorflow</artifactId>
+    <version>1.0-SNAPSHOT</version>
 
-			    <properties>
-				            <exec.mainClass>HelloTensorFlow</exec.mainClass>
-					        <!-- Minimal version for compiling TensorFlow Java is JDK 8 -->
-						        <maven.compiler.source>1.8</maven.compiler.source>
-							        <maven.compiler.target>1.8</maven.compiler.target>
-								    </properties>
+    <properties>
+        <exec.mainClass>HelloTensorFlow</exec.mainClass>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
 
-								        <dependencies>
-										    <!-- Include TensorFlow (pure CPU only) for all supported platforms -->
-										            <dependency>
-												                <groupId>org.tensorflow</groupId>
-														            <artifactId>tensorflow-core-platform-gpu</artifactId>
-															                <version>0.2.0</version>
-																	        </dependency>
-																		    </dependencies>
-																	    </project>
+    <dependencies>
+<!--		<dependency>-->
+<!--			<groupId>org.tensorflow</groupId>-->
+<!--			<artifactId>tensorflow-core-platform</artifactId>-->
+<!--			<version>0.2.0</version>-->
+<!--		</dependency>-->
+        <!-- GPU support -->
+        <dependency>
+            <groupId>org.tensorflow</groupId>
+            <artifactId>tensorflow-core-platform-gpu</artifactId>
+            <version>0.2.0</version>
+        </dependency>
+    </dependencies>
+</project>
