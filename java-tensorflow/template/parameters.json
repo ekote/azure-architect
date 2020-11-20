@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "virtualMachines_dsvm_name": {
+            "value": null
+        },
+        "networkInterfaces_dsvm382_name": {
+            "value": null
+        },
+        "publicIPAddresses_dsvm_ip_name": {
+            "value": null
+        },
+        "virtualMachines_ekot_dsvm_gpu_name": {
+            "value": null
+        },
+        "virtualNetworks_dsvm_env_vnet_name": {
+            "value": null
+        },
+        "networkSecurityGroups_dsvm_nsg_name": {
+            "value": null
+        },
+        "networkInterfaces_ekot_dsvm_gpu177_name": {
+            "value": null
+        },
+        "publicIPAddresses_ekot_dsvm_gpu_ip_name": {
+            "value": null
+        },
+        "networkSecurityGroups_ekot_dsvm_gpu_nsg_name": {
+            "value": null
+        },
+        "virtualNetworks_MLAISPACEvnet602_externalid": {
+            "value": null
+        }
+    }
+}

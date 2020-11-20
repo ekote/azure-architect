@@ -12,6 +12,7 @@
    2020-11-09 23:38:40.213354: I external/org_tensorflow/tensorflow/stream_executor/cuda/cuda_diagnostics.cc:156] kernel driver does not appear to be running on this host (DESKTOP-GEGKBHS): /proc/driver/nvidia/version does not exist
    10 doubled is 20
 ```
+
 - results from Data science vm with gpu
 ```
 ekot@ekot-dsvm-gpu:~/azure-architect/java-tensorflow$ mvn -q compile exec:java
