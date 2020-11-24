@@ -1,4 +1,7 @@
 
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FItAlja%2Fyolo%2Fmain%2FARMtemplate%2Ftemplate.json%3Ftoken%3DABMZFOR5WWDDIBB34MBVEX27W6MWS)
+
+
 - to compile:```mvn -q compile exec:java```
 - results from local PL:
 ```ekot@DESKTOP-GEGKBHS:/mnt/c/dev/azure-architect/java-tensorflow$ mvn -q compile exec:java

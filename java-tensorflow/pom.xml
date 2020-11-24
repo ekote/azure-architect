@@ -10,17 +10,43 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>tensorflow-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
+
     <dependencies>
-<!--		<dependency>-->
-<!--			<groupId>org.tensorflow</groupId>-->
-<!--			<artifactId>tensorflow-core-platform</artifactId>-->
-<!--			<version>0.2.0</version>-->
-<!--		</dependency>-->
+        <!--		<dependency>-->
+        <!--			<groupId>org.tensorflow</groupId>-->
+        <!--			<artifactId>tensorflow-core-platform</artifactId>-->
+        <!--			<version>0.2.0</version>-->
+        <!--		</dependency>-->
         <!-- GPU support -->
+        <!--        <dependency>-->
+        <!--            <groupId>org.tensorflow</groupId>-->
+        <!--            <artifactId>tensorflow-core-platform-gpu</artifactId>-->
+        <!--            <version>0.2.0</version>-->
+        <!--        </dependency>-->
         <dependency>
             <groupId>org.tensorflow</groupId>
             <artifactId>tensorflow-core-platform-gpu</artifactId>
-            <version>0.2.0</version>
+            <version>0.3.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>4.0.0-rc-2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.tensorflow</groupId>
+            <artifactId>ndarray</artifactId>
+            <version>0.3.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 </project>
