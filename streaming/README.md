@@ -15,7 +15,9 @@ import time
 ```
 
 
-## Synapse -> `SparkStructuredStreamingEventHub.ipynb`
+## Synapse 
+
+Check [SparkStructuredStreamingEventHub.ipynb](https://github.com/ekote/azure-architect/blob/master/streaming/SparkStructuredStreamingEventHub.ipynb)
 
 ## FAQ
 1. Structured streaming on PROD https://docs.databricks.com/spark/latest/structured-streaming/production.html
