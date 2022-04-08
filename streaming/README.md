@@ -1,4 +1,6 @@
-### For the event producer install on cluster:
+## Event Hub producer 
+
+install on a cluster:
 - pip install azure-eventhub
 - pip install azure-eventhub-checkpointstoreblob-aio
 - import libs:
@@ -13,7 +15,7 @@ import time
 ```
 
 
-## Synapse -> 
+## Synapse -> `SparkStructuredStreamingEventHub.ipynb`
 
 ## FAQ
 1. Structured streaming on PROD https://docs.databricks.com/spark/latest/structured-streaming/production.html
